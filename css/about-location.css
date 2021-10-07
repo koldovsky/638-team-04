@@ -6,8 +6,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+}
 /* Section About Yosemite */
 .about-yosamite {
     background-image: url(../img/about-location/section-about-yosemite/bg.jpg);
-    background-size: 100%;
+    padding: 80px 0;
+}
+
+.about-yosamite-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.about-yosamite-content {
+    max-width: 55%;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-yosamite-empty-column {
+    padding: 0 15px 0 15px;
+    width: auto;
+}
+.about-yosamite-text {
+    text-align: center;
+}
+.about-yosamite-text h2{
+    font-weight: 500;
+    font-size: 44px;
+    font-family: "Circular Std", serif;
+}
+.about-yosamite-text p{
+    font-weight: 400;
+    margin-top: 45px;
+}
+.about-yosamite-photo{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 0 0;
+    max-height: 400px;
+}
+
+.about-yosamite-photo img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
