@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+    min-width: 10%;
+    min-height: 10%;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+}
+
+h1, h2, h3 {
+    font-family: "Circular Std";
+    text-align: center;
+}
+
+h4, h5 ,h6 {
+    font-family: "Roboto";
+}
+/* Second Half */
+.get-full-answer {
+    background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
+}
+
+.our-facilities {
+    background-image: url(../img/index/our-facilities/our-facilities-background.webp);
+}
+
+.shop-cafe {
+    background-image: url(../img/index/shop-cafe/shop-cafe.webp);
+}
+
+.testimonials {
+    background-image: url(../img/index/testimonials/testimonials-background.webp);
+}
+
+.reservation {
+    background-image: url(../img/index/reservation/reservation-background.webp);
+}
