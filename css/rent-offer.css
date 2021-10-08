@@ -1,1 +1,17 @@
-<style> 
+
+
+
+/* Section About Cabin Rentals River Chalet */
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    }
+img {
+     
+}
+
+.river-chalet {
+    background-image: url(../img/rent-offer/rever-chalet.webp);
+    padding: 50px 0;
+    border-radius: 10px;
+}
