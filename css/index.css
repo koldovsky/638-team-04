@@ -22,6 +22,25 @@ h1, h2, h3 {
 h4, h5 ,h6 {
     font-family: "Roboto";
 }
+
+.order-call{
+    background-image: url(../img/index/order-call/fon1.jpg);
+}
+
+.adventure-starts{
+    background-image: url(../img/index/adventure-starts/fon2.webp);
+}
+
+.cabin-rentals{
+    background-image: url(../img/index/cabin-rentals/fon3.webp);
+}
+
+.things-to-do{
+    background-image: url(../img/index/things-to-do/fon4.webp);
+}
+
+
+
 /* Second Half */
 .get-full-answer {
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
