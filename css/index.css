@@ -25,7 +25,9 @@ h4, h5 ,h6 {
 
 .order-call{
     background-image: url(../img/index/order-call/fon1.jpg);
+    height: 700px;
 }
+
 
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon2.webp);
