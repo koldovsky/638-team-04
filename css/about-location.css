@@ -132,7 +132,7 @@
 
 .season-activities {
     background-image: url(../img/about-location/section-season_activities/bg-dark.jpg);
-    padding: 80px 40px;
+    padding: 80px 140px;
 }
 
 .season-activities-header p {
@@ -179,7 +179,13 @@
     margin-top: 20px;
 }
 
-.season-activities-list ul div {
+.season-activities-column-list {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.season-activities-ul div div{
     display: flex;
     flex-direction: row;
     line-height: 25.6px;
@@ -187,7 +193,40 @@
     margin-right: 15px;
 }
 
-.season-activities-list ul div div img {
+.season-activities-ul img {
     width: 25px;
     height: 25px;
+}
+
+.season-activities-spa {
+    padding: 80px 0 0 0;
+}
+.season-activities-spa div{
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.season-activities-spa h2{
+    text-align: center;
+    font-family: "Circular Std", serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.season-activities-spa p {
+    text-align: center;
+    line-height: 25.6px;
+}
+
+.season-activities-spa-photo {
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+}
+
+.season-activities-spa-photo img {
+   width: 100%;
+   border-radius: 10px;
+   object-fit: cover;
 }
