@@ -1,27 +1,32 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);*/
 
-
-
-/* Section About Cabin Rentals River Chalet */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-@font-face 
-    font-family: "Circular Std";
-    src: url(../fonts/circular-std.ttf);
-
-h2 {
-    font size: 44px;
+h1 { 
     text-align: center;
-}
+    display:block;
     
+    font-size:  3em;
+    margin:auto;
+   
+    }
+  
+:root{
+    font-family: 'Circular Std', sans-serif;;
+}
+
 img { 
     width: 50%;
-     
+     border-radius: 10px;
+     margin: auto;
 }
 
+.cabins {
+    text-align: right;
+}
 .river-chalet {
     background-image: url(../img/rent-offer/rever-chalet.webp);
     padding: 50px 0;
-    border-radius: 10px;
+    
 }
 
