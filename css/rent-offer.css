@@ -2,11 +2,20 @@
 
 
 /* Section About Cabin Rentals River Chalet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face 
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+
 h2 {
-    text-transform: uppercase;
+    font size: 44px;
     text-align: center;
-    }
-img {
+}
+    
+img { 
+    width: 50%;
      
 }
 
@@ -15,3 +24,4 @@ img {
     padding: 50px 0;
     border-radius: 10px;
 }
+
