@@ -10,7 +10,8 @@
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
 }
-/* Section About Yosemite */
+/* Section About Yosemite................................................................................ */
+
 .about-yosamite {
     background-image: url(../img/about-location/section-about-yosemite/bg.jpg);
     padding: 80px 0;
@@ -58,7 +59,7 @@
     object-fit: cover;
 }
 
-/* Section services */
+/* Section services............................................................................................ */
 
 .services{
     padding: 100px 40px;
@@ -70,7 +71,7 @@
 
 .services-text-preview {
     margin-top: 30px;
-    padding: 0 15px;
+    padding: 0 100px;
 }
 
 .services-text-preview p{
@@ -83,7 +84,7 @@
 
 .services-cards-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: wrap;
 }
 
@@ -91,8 +92,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 30%;
-    padding: 0 15px;
+    max-width: 25%;
+    padding: 0 40px;
     margin-top: 30px;
 }
 
@@ -127,3 +128,6 @@
     font-weight: 400;
     line-height: 25.6px;
 }
+
+/* Section Season Activities................................................................................ */
+
