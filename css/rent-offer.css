@@ -1,12 +1,32 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-font-family: "Circular Std";
-    src: url(../fonts/circular-std.ttf);*/
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    height: 138px;
+}
 
-h1
+.logo {
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 29px;
+}
 @font-face {
     font-family: "Circular Std";
-    src: url(../fonts/circular-std.ttf);
+    src: url(../fonts/circular-std.ttf);}
+
+img {
+     width: 50%;
+     border-radius: 10px;
+     margin: 25px;
+             
+    }
+
+h1,h2,h3,p {
+    font-family: "Circular Std";
 }
+
+
     .logo {
     text-transform: uppercase;
     width: 30%; 
@@ -16,14 +36,9 @@ h1 {
     font-size: 39px;
     font-family: "Circular Std";
     text-align: center;
-    text-pink: gainsboro;
+
 }
-img {
-     width: 50%;
-     border-radius: 10px;
-     margin: 25px;
-             
-    }
+
     h2 {
         font-size: 35px;
         text-align: left;
@@ -34,12 +49,3 @@ img {
     text-align: left;
   }
 
-.class-price {
-border-bottom-color: rgb (89, 150, 115);
-padding: 80px;
-font-size: 35px;
-}
-
-.class-reservation {
-    background-color: gainsboro;
-}
