@@ -2,6 +2,8 @@
     margin: 0 auto;
 }
 
+/* header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,9 +26,13 @@ header {
     margin-right: 32px;
 }
 
+/* dropdown navigation */
+
 .dropdown {
     display: none;
 }
+
+/* gallery  text */
 
 .gallery {
     width: 100%;
@@ -72,4 +78,42 @@ margin: auto;
     background-color: black;
     height: 2px;
     margin: auto;
+}
+
+/* Gallery pictures */
+
+.gallery_photos {
+    display: flex;
+    width: 100%;
+}
+
+.tree_house {
+    margin-left: 24px;
+    width: 204px;
+    border-radius: 10px;
+}
+
+.two_pictures {
+    width: 50%;
+}
+
+.horses_wrap {
+    display: flex;
+}
+
+.horses {
+
+    width: 94px;
+    border-radius: 10px;
+}
+
+.forest_wrap {
+  display: flex;
+}
+
+.forest {
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 94px;
+ 
 }
