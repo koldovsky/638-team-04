@@ -1,0 +1,119 @@
+* {
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    height: 138px;
+}
+
+.logo {
+    margin-left: 25px;
+    margin-bottom: 29px;
+}
+
+.logo_picture {
+    margin-top: 30px;
+}
+
+.burger {
+    margin: auto;
+    margin-right: 32px;
+}
+
+/* dropdown navigation */
+
+.dropdown {
+    display: none;
+}
+
+/* gallery  text */
+
+.gallery {
+    width: 100%;
+}
+
+.gallery_box {
+    display: flex;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 185px;
+}
+
+h1 {
+margin: auto;
+}
+
+.seasons {
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+.nav_seasons {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.season_link {
+    color: #7b7975;
+    text-decoration: none;
+}
+
+.main_stripe {
+    display: flex;
+    width: 100%;
+    height: 41px;
+    background-color: #f8f8f8;
+}
+
+.stripe {
+    width: 88%;
+    background-color: black;
+    height: 2px;
+    margin: auto;
+}
+
+/* Gallery pictures */
+
+.gallery_photos {
+    display: flex;
+    width: 100%;
+}
+
+.tree_house {
+    margin-left: 24px;
+    width: 204px;
+    border-radius: 10px;
+}
+
+.two_pictures {
+    width: 50%;
+}
+
+.horses_wrap {
+    display: flex;
+}
+
+.horses {
+
+    width: 94px;
+    border-radius: 10px;
+}
+
+.forest_wrap {
+  display: flex;
+}
+
+.forest {
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 94px;
+ 
+}
