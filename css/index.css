@@ -139,6 +139,27 @@ h4, h5 ,h6 {
 
 .our-facilities {
     background-image: url(../img/index/our-facilities/our-facilities-background.webp);
+    
+}
+
+.our-facilities p {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Circular Std";
+    text-align: center;
+}
+
+.our-facilities div {
+    width: 301px;
+    
+}
+
+.our-facilities img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
 }
 
 .shop-cafe {
