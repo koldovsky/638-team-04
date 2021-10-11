@@ -69,7 +69,73 @@ h4, h5 ,h6 {
 
 /* Second Half */
 .get-full-answer {
+    padding: 60px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
+    background-position: center;
+
+}
+.get-full-answer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.get-full-answer p {
+    font-family: "Circular Std";
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.orange-button {
+    margin: 7px;
+	background-color:#f98250;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.orange-button:hover {
+    transition: 1s;
+    background-color:#ffffff;
+    color: #000;
+}
+
+.orange-button:active {
+    position:relative;
+    top:1px;
+}
+
+.transparent-button {
+    margin: 7px;
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.transparent-button:hover {
+    transition: 1s;
+	background-color:#ffffff;
+    color: #000;
+}
+
+.transparent-button:active {
+	position:relative;
+	top:1px;
 }
 
 .our-facilities {
