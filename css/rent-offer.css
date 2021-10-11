@@ -40,8 +40,7 @@ h1 {
     h2 {
         font-size: 35px;
         text-align: left;
-          box-sizing: border-box;
-        }
+                }
   h3 {
     font-size: 23px;
     text-align: left;
@@ -49,30 +48,40 @@ h1 {
 
   
 .river-chalet {
-    color: var(--main-color);
-    display: flex;
-    align-items: stretch;
+color: var(--main-color);
+display: flex;
+align-items: stretch;
 padding-left: 25px;
 padding-right: 40px;
 }
 .lookout-lodge {
-    display: flex;
-    align-items: stretch;
+color: var(--main-color);
+display: flex;
+align-items: stretch;
 padding-left: 25px;
+padding-right: 40px;
 }
 .smoky-view-chalet {
-    display: flex;
-    align-items: stretch;
+color: var(--main-color);
+display: flex;
+align-items: stretch;
 padding-left: 25px;
+padding-right: 40px;
 }
 .mountain-haven {
-    display: flex;
-    align-items: stretch;
+color: var(--main-color);
+display: flex;
+align-items: stretch;
 padding-left: 25px;
+padding-right: 40px;
 }
 .mountain-splash {
-    display: flex;
-    align-items: stretch;
+color: var(--main-color);
+display: flex;
+align-items: stretch;
 padding-left: 25px;
-
+padding-right: 40px;
+}
+.price {
+    color:#599673;
 }
