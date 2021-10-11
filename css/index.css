@@ -16,7 +16,6 @@ img {
 
 h1, h2, h3{
     font-family: "Circular Std";
-    text-align: center;
 }
 
 h4, h5 ,h6 {
@@ -26,7 +25,32 @@ h4, h5 ,h6 {
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
     height: 700px;
+    background-position: 50%;
+    justify-content: center;
+    align-items: center;
 }
+
+.order-call-form{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+   
+	text-align: center;
+   
+}
+
+.order-call-form > h3, p, form{
+    margin: 15px;
+    
+}
+
+@media (min-width: 600px) {
+   .order-call-form{
+    position: relative;
+    max-width: 480px;
+   }
+  }
 
 
 .adventure-starts{
