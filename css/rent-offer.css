@@ -16,7 +16,7 @@ header {
     src: url(../fonts/circular-std.ttf);}
 
 img {
-     width: 50%;
+     width: 60%;
      border-radius: 10px;
      margin: 25px;
              
@@ -24,6 +24,7 @@ img {
 
 h1,h2,h3,p {
     font-family: "Circular Std";
+    justify-content: flex-start;
 }
 
 
@@ -49,3 +50,30 @@ h1 {
     text-align: left;
   }
 
+.river-chalet {
+    display: flex;
+    align-items: stretch;
+padding-left: 25px;
+padding-right: 40px;
+}
+.lookout-lodge {
+    display: flex;
+    align-items: stretch;
+padding-left: 25px;
+}
+.smoky-view-chalet {
+    display: flex;
+    align-items: stretch;
+padding-left: 25px;
+}
+.mountain-haven {
+    display: flex;
+    align-items: stretch;
+padding-left: 25px;
+}
+.mountain-splash {
+    display: flex;
+    align-items: stretch;
+padding-left: 25px;
+
+}
