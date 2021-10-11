@@ -83,6 +83,7 @@ margin: auto;
 /* Gallery pictures */
 
 .gallery_photos {
+    background-color: #f8f8f8;
     display: flex;
     width: 100%;
 }
@@ -116,4 +117,39 @@ margin: auto;
     padding-top: 15px;
     width: 94px;
  
+}
+
+/* Second picture block */
+
+.second_pictureblock {
+    padding: 15px 25px 15px 25px;
+    background-color: #f8f8f8;
+    display: flex;
+}
+
+.second_twopictures {
+    width: 38%;
+}
+
+
+
+.inside_theroom {
+    margin-bottom: 15px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+
+.wood_house {
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.window_flowers {
+
+    width: 62%;
+    height: 167px;
+    border-radius: 10px;
 }
