@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -29,13 +30,13 @@ h4, h5 ,h6 {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    max-height: 600px;
+    min-height: 600px;
 }
 
 .order-call-form{
     background-color: white;
-    margin: 5%;
-    padding: 5%;
+    margin: 15px;
+    padding: 15px;
     border-radius: 5%;
 	text-align: center;
 }
@@ -44,12 +45,41 @@ h4, h5 ,h6 {
     margin: 15px;
 }
 
+.order-call-form > p{
+    color: rgb(132,132,132);
+}
+
 @media (min-width: 600px) {
+    .order-call{
+        min-height: 600px;
+    }
    .order-call-form{
-    margin: 15%;
+    /*margin: 15%;*/
     object-position: center;
+    margin-left: 50%;
    }
   }
+
+  .button {
+    margin: 7px;
+    background-color: coral;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.button:hover {
+    transition: 1s;
+	background-color: teal;
+    color: white;
+}
 
 
 .adventure-starts{
@@ -150,20 +180,38 @@ h4, h5 ,h6 {
 }
 
 .our-facilities div {
-    width: 301px;
     
 }
 
 .our-facilities img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-}
-
+    border-radius: 10px;
 }
 
 .shop-cafe {
     background-image: url(../img/index/shop-cafe/shop-cafe.webp);
+}
+
+.shop-cafe div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-cafe div p {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Circular Std";
+    text-align: center;
+    color: white;
+
+}
+.shop-cafe div span {
+    color: #d1d1d1;
+    text-align: center;
+    font-size: 19px;
 }
 
 .testimonials {
