@@ -16,7 +16,6 @@ img {
 
 h1, h2, h3{
     font-family: "Circular Std";
-    text-align: center;
 }
 
 h4, h5 ,h6 {
@@ -25,8 +24,32 @@ h4, h5 ,h6 {
 
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
-    height: 700px;
+    background-position: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 600px;
 }
+
+.order-call-form{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+	text-align: center;
+}
+
+.order-call-form > h3, p, form{
+    margin: 15px;
+}
+
+@media (min-width: 600px) {
+   .order-call-form{
+    margin: 15%;
+    object-position: center;
+   }
+  }
 
 
 .adventure-starts{
@@ -45,11 +68,98 @@ h4, h5 ,h6 {
 
 /* Second Half */
 .get-full-answer {
+    padding: 60px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
+    background-position: center;
+
+}
+.get-full-answer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.get-full-answer p {
+    font-family: "Circular Std";
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.orange-button {
+    margin: 7px;
+	background-color:#f98250;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.orange-button:hover {
+    transition: 1s;
+    background-color:#ffffff;
+    color: #000;
+}
+
+.orange-button:active {
+    position:relative;
+    top:1px;
+}
+
+.transparent-button {
+    margin: 7px;
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.transparent-button:hover {
+    transition: 1s;
+	background-color:#ffffff;
+    color: #000;
+}
+
+.transparent-button:active {
+	position:relative;
+	top:1px;
 }
 
 .our-facilities {
     background-image: url(../img/index/our-facilities/our-facilities-background.webp);
+    
+}
+
+.our-facilities p {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Circular Std";
+    text-align: center;
+}
+
+.our-facilities div {
+    width: 301px;
+    
+}
+
+.our-facilities img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
 }
 
 .shop-cafe {
