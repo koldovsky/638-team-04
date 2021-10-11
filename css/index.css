@@ -29,7 +29,7 @@ h4, h5 ,h6 {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    max-height: 600px;
+    max-height: 650px;
 }
 
 .order-call-form{
@@ -44,12 +44,39 @@ h4, h5 ,h6 {
     margin: 15px;
 }
 
+.order-call-form > p{
+    color: rgb(132,132,132);
+}
+
 @media (min-width: 600px) {
+    
    .order-call-form{
-    margin: 15%;
+    /*margin: 15%;*/
     object-position: center;
+    margin-left: 50%;
    }
   }
+
+  .button {
+    margin: 7px;
+    background-color: coral;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+.button:hover {
+    transition: 1s;
+	background-color: teal;
+    color: white;
+}
 
 
 .adventure-starts{
