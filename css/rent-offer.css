@@ -5,7 +5,13 @@ header {
     background-color: #fff;
     height: 138px;
 }
-
+:root {
+    --main-color: #292827;
+    --accent-color:  #e9e6e3
+}
+main > nav {
+      background-color: var(--accent-color) ;
+  }
 .logo {
     text-align: center;
     margin-left: 25px;
@@ -18,28 +24,19 @@ header {
 img {
      width: 60%;
      border-radius: 10px;
-     margin: 25px;
-             
-    }
+     margin: 25px;           
+   }
 
 h1,h2,h3,p {
     font-family: "Circular Std";
     justify-content: flex-start;
 }
-
-
-    .logo {
-    text-transform: uppercase;
-    width: 30%; 
-        }
-
+   
 h1 {
     font-size: 39px;
     font-family: "Circular Std";
     text-align: center;
-
 }
-
     h2 {
         font-size: 35px;
         text-align: left;
@@ -50,7 +47,9 @@ h1 {
     text-align: left;
   }
 
+  
 .river-chalet {
+    color: var(--main-color);
     display: flex;
     align-items: stretch;
 padding-left: 25px;
