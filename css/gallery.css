@@ -106,6 +106,7 @@ margin: auto;
 
     width: 94px;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .forest_wrap {
@@ -114,7 +115,6 @@ margin: auto;
 
 .forest {
     border-radius: 10px;
-    padding-top: 15px;
     width: 94px;
  
 }
@@ -153,3 +153,11 @@ margin: auto;
     height: 167px;
     border-radius: 10px;
 }
+
+.our_guests {
+
+    width: 100%;
+
+}
+
+
