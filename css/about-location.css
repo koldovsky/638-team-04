@@ -230,3 +230,39 @@
    border-radius: 10px;
    object-fit: cover;
 }
+
+/* Section form................................................................................................................. */
+
+.section-form {
+    background-image: url(../img/about-location/section-form/bg.jpg);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.section-form-boxes {
+    padding: 80px 40px;
+}
+
+.section-form-box {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.section-form-box-big-text {
+    color: white;
+    text-align: left;
+    font-family: "Circular Std", serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+.section-form-box-small-text {
+    color: white;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30.4px;
+}
