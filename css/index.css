@@ -29,13 +29,13 @@ h4, h5 ,h6 {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    max-height: 650px;
+    min-height: 600px;
 }
 
 .order-call-form{
     background-color: white;
-    margin: 5%;
-    padding: 5%;
+    margin: 15px;
+    padding: 15px;
     border-radius: 5%;
 	text-align: center;
 }
@@ -49,7 +49,9 @@ h4, h5 ,h6 {
 }
 
 @media (min-width: 600px) {
-    
+    .order-call{
+        min-height: 600px;
+    }
    .order-call-form{
     /*margin: 15%;*/
     object-position: center;
