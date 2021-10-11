@@ -9,6 +9,11 @@ img {
     width: 100%;
 }
 
+:root {
+    width: 100%;
+    max-width: 960px;
+}
+
 .header_inner {
     height: 140px;
     margin: 15px;
@@ -31,3 +36,33 @@ img {
     align-items: center;
     display: flex;
 }
+
+/* Gallery */
+
+.gallery_menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 215px;
+}
+
+.gallery_text {
+    align-items: center;
+    display: flex;
+    height: 90%;
+}
+
+.row_nav {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.br {
+    margin-top: 18px;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+
+
