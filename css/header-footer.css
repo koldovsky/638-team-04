@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+}
+
+header .header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+header img{
+    display: block;
+    max-width: 100%;
+}
+
+.menu {
+    align-items: center;
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+        
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: coral;
+  }
+
