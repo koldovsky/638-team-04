@@ -20,18 +20,34 @@ header .header-top{
     
 }
 
+.header-top p{
+    display: none;
+}
+
 header img{
     display: block;
     max-width: 100%;
 }
 
 .menu {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 	text-align: center;
     padding-top: 15px;
-    padding-bottom: 30px;
-        
+    padding-bottom: 30px; 
 }
+
+
+@media (min-width: 600px) {
+    header > .menu {
+        display: block;
+    }
+
+    .header-top p{
+        display: block;
+    }
+  }
 
 .menu a{
     color: black;
