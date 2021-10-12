@@ -21,11 +21,12 @@ main > nav {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);}
 
-img {
-     width: 60%;
-     border-radius: 10px;
-     margin: 25px;           
-   }
+/* img {
+    width: 100%;
+    border-radius: 10px;   
+    padding: 0 15px;
+} */
+/* Зробив 100% withd, видалив margin, додав padding ( для img) */
 
 h1,h2,h3,p {
     font-family: "Circular Std";
@@ -37,14 +38,14 @@ h1 {
     font-family: "Circular Std";
     text-align: center;
 }
-    h2 {
-        font-size: 35px;
-        text-align: left;
-                }
-  h3 {
-    font-size: 23px;
+h2 {
+    font-size: 35px;
     text-align: left;
-  }
+}
+h3 {
+    font-size: 23px; 
+    text-align: left;
+}
 
   
 .river-chalet {
@@ -84,4 +85,24 @@ padding-right: 40px;
 }
 .price {
     color:#599673;
+}
+
+/* ..................... */
+
+.cabin-rentals-img {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 0 24px;
+}
+
+.cards-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.list {
+    margin-top: 50px;
 }

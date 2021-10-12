@@ -65,4 +65,40 @@ img {
     background-color: black;
 }
 
+/* Gallery Pictures*/
+
+.gallery_pictures {
+    display: flex;
+    padding: 10px;
+
+    background-color: aqua;
+}
+
+.first_picturesection {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 10px;
+}
+
+.house_ontree {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.two_pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horses {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.forest {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
