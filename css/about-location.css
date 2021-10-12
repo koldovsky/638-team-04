@@ -19,9 +19,8 @@
 
 .about-yosamite-box {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 40px;
+    justify-content: center;
+    padding: 0 24px;
 }
 .about-yosamite-content {
     max-width: 55%;
@@ -30,17 +29,14 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.about-yosamite-empty-column {
-    padding: 0 15px 0 15px;
-    width: auto;
-}
 .about-yosamite-text {
     text-align: center;
 }
 .about-yosamite-text h2{
     font-weight: 500;
-    font-size: 44px;
+    font-size: 34px;
     font-family: "Circular Std", serif;
+    line-height: 40px;
 }
 .about-yosamite-text p{
     font-weight: 400;
@@ -62,77 +58,54 @@
 /* Section services............................................................................................ */
 
 .services{
-    padding: 100px 40px;
+    padding: 90px 24px;
     background-image: url(../img/about-location/section-services/bg.jpg);
-}
-.services-box {
-    margin: 0 20px;
+    background-size: cover;
+    width: 100%;
 }
 
 .services-text-preview {
     margin-top: 30px;
-    padding: 0 100px;
 }
 
-.services-text-preview p{
+.services-text-preview p {
     color: white;
-    font-size: 16px;
-    font-weight: 400;
     text-align: center;
     line-height: 25.6px;
 }
 
-.services-cards-box {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
+.services-card-box {
+    margin-top: 45px;
 }
 
-.services-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 25%;
-    padding: 0 40px;
-    margin-top: 83px;
+.card {
+    border: 0;
+    background-color: #fff0;
 }
 
-.services-card div {
-    display: block;
-    position: relative;
-    max-width: 100%;
-}
-
-.services-card div img {
-    width: 100%;
-    height: 100%;
+.card img {
     border-radius: 10px;
 }
 
-.services-card-p-name{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    font-family: "Circular Std", serif;
-    font-size: 25px;
+.card-body h5 {
     font-weight: 500;
-    line-height: 35px;
-}
-
-.services-card-p-text {
+    font-size: 22px;
+    font-family: "Circular Std", serif;
+    line-height: 30px;
     color: white;
     text-align: center;
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25.6px;
 }
 
+.card-body p {
+    color: white;
+    line-height: 25.6px;
+    text-align: center;
+}
 /* Section Season Activities................................................................................ */
 
 .season-activities {
     background-image: url(../img/about-location/section-season_activities/bg-dark.jpg);
-    padding: 80px 140px;
+    padding: 80px 0;
 }
 
 .season-activities-header p {
