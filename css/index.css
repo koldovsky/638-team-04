@@ -3,11 +3,9 @@
     scroll-behavior: smooth;
 }
 
-img {
-    max-width: 30%;
-    max-height: 30%;
-    min-width: 10%;
-    min-height: 10%;
+:root{
+    --main-color: rgb(40, 37, 32);
+    --text-color: rgb(132,132,132);
 }
 
 @font-face {
@@ -22,6 +20,7 @@ h1, h2, h3{
 h4, h5 ,h6 {
     font-family: "Roboto";
 }
+
 
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
@@ -46,10 +45,10 @@ h4, h5 ,h6 {
 }
 
 .order-call-form > p{
-    color: rgb(132,132,132);
+    color: var(--text-color);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     .order-call{
         min-height: 600px;
     }
@@ -84,7 +83,90 @@ h4, h5 ,h6 {
 
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon-adventure.webp);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+
+.adventure-text{
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.adventure-text > h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.adventure-text > p{
+    font-size: 19px;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+.adventure-photos{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.adventure-divphotos{
+    padding: 20px;
+}
+
+.adventure-divphotos > img {
+    width: 240px;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.adventure-divphotos > h3{
+    padding: 20px;
+    font-size: 22px;
+    color: var(--main-color);
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .adventure-photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .adventure-divphotos > img{
+        width: 300px;
+        height: 190px;
+    }
+    .adventure-divphotos > h3{
+        font-size: 23px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .adventure-photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .adventure-divphotos > img{
+        width: 245px;
+        height: 160px;
+    }
+    .adventure-divphotos > h3{
+        font-size: 25px;
+    }
+    .adventure-text > h2{
+        font-size: 44px;
+        font-weight: bold;
+        color: var(--main-color);
+    }
+
+}
+
+
 
 .cabin-rentals{
     background-image: url(../img/index/cabin-rentals/fon-cabin.webp);
