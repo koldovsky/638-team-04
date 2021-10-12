@@ -207,6 +207,7 @@ h4, h5 ,h6 {
 .get-full-answer {
     padding: 60px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
+    background-repeat: no-repeat;
     background-position: center;
 
 }
@@ -298,13 +299,19 @@ h4, h5 ,h6 {
 
 .shop-cafe {
     background-image: url(../img/index/shop-cafe/shop-cafe.webp);
-}
-
-.shop-cafe div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+}
+
+.shop-cafe div {
+  
+}
+
+.shop-block {
+    padding: 10px;
+    
 }
 
 .shop-cafe div p {
@@ -319,6 +326,13 @@ h4, h5 ,h6 {
     color: #d1d1d1;
     text-align: center;
     font-size: 19px;
+}
+
+.shop-cafe div img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    
 }
 
 .testimonials {
