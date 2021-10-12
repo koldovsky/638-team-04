@@ -105,7 +105,7 @@
 
 .season-activities {
     background-image: url(../img/about-location/section-season_activities/bg-dark.jpg);
-    padding: 80px 0;
+    padding: 80px 24px;
 }
 
 .season-activities-header p {
@@ -117,9 +117,8 @@
 }
 
 .season-activities-boxes {
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
+    margin-top: 50px;
+    padding: 0 15px;
 }
 
 .season-activities-box {
@@ -155,10 +154,9 @@
 .season-activities-column-list {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
 }
 
-.season-activities-ul div div{
+.season-activities-ul div{
     display: flex;
     flex-direction: row;
     line-height: 25.6px;
