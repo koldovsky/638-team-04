@@ -65,4 +65,23 @@ img {
     background-color: black;
 }
 
+/* Gallery Pictures*/
+
+.gallery_pictures {
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.first_picturesection {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
+.house_ontree {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 
