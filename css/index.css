@@ -38,48 +38,73 @@ h4, h5 ,h6 {
     padding: 15px;
     border-radius: 5%;
 	text-align: center;
+    margin-top: 20%;
 }
 
-.order-call-form > h3, p, form{
+.order-call-form > form{
     margin: 15px;
+    display: grid;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 1fr ;
+    justify-items: center;
+}
+
+.order-call-form > h3{
+    margin: 15px;
+    font-size: 22px;
+
 }
 
 .order-call-form > p{
+    margin: 15px;
+    font-size: 16px;
     color: var(--text-color);
+}
+
+.order-input{
+    width: 90%;
+    margin-top: 12px;
+    padding: 16px 24px;
+    border-radius: 28px;
+    background-color: rgba(40, 37, 32, 0.12);
+    border: 1px solid rgba(40, 37, 32, 0.12);
+    font-family:"Roboto";
+}
+
+.order-button {
+    width: 100%;
+    margin: 0px 7px;
+    background-color: coral;
+    border-radius:28px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:15px;
+    padding:16px 24px;
+    text-decoration:none;
+    font-weight: bold;
+   }
+
+.order-button:hover {
+    transition: 1s;
+	background-color: #599673;
+    color: white;
 }
 
 @media (min-width: 768px) {
     .order-call{
         min-height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
    .order-call-form{
-    /*margin: 15%;*/
-    object-position: center;
-    margin-left: 50%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+
    }
-  }
-
-  .button {
-    margin: 7px;
-    background-color: coral;
-	border-radius:28px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:"Roboto";
-	font-size:15px;
-	padding:16px 31px;
-	text-decoration:none;
-    font-weight: bold;
 }
-
-.button:hover {
-    transition: 1s;
-	background-color: teal;
-    color: white;
-}
-
 
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon-adventure.webp);
