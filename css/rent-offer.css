@@ -29,8 +29,9 @@ h1 {
 h2 {
     font-size: 35px;
     text-align: left;
-    
-    accent-color: #599673;
+}
+.price {
+    color: #599673;
     }
 }
 h3 {
@@ -60,3 +61,5 @@ h3 {
  section  {
     background-color: #e7e5e3; 
  }
+ .btn-outline-*
+ <button type="button" class="btn btn-outline-success">Success</button>
