@@ -1,97 +1,54 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #fff;
-    height: 138px;
-}
+
 :root {
     --main-color: #292827;
     --accent-color:  #e9e6e3
-}
-main > nav {
-      background-color: var(--accent-color) ;
-  }
-.logo {
-    text-align: center;
-    margin-left: 25px;
-    margin-bottom: 29px;
-}
+    }
 @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);}
 
-/* img {
-    width: 100%;
-    border-radius: 10px;   
-    padding: 0 15px;
-} */
-/* Зробив 100% withd, видалив margin, додав padding ( для img) */
 
+@media (min-width: 750px) {
+    .box  {
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+        grid-column-gap: 30px;
+        grid-column: 35px;
+    }
+    
+}
 h1,h2,h3,p {
     font-family: "Circular Std";
     justify-content: flex-start;
+    color: var(--main-color);
 }
    
 h1 {
     font-size: 39px;
     font-family: "Circular Std";
     text-align: center;
+    padding-top: 80px;
 }
 h2 {
     font-size: 35px;
     text-align: left;
+    padding-top: 80px;
 }
+.price {
+    color: #599673;
+    }
+
 h3 {
     font-size: 23px; 
     text-align: left;
 }
 
-  
-.river-chalet {
-color: var(--main-color);
-display: flex;
-align-items: stretch;
-padding-left: 25px;
-padding-right: 40px;
-}
-.lookout-lodge {
-color: var(--main-color);
-display: flex;
-align-items: stretch;
-padding-left: 25px;
-padding-right: 40px;
-}
-.smoky-view-chalet {
-color: var(--main-color);
-display: flex;
-align-items: stretch;
-padding-left: 25px;
-padding-right: 40px;
-}
-.mountain-haven {
-color: var(--main-color);
-display: flex;
-align-items: stretch;
-padding-left: 25px;
-padding-right: 40px;
-}
-.mountain-splash {
-color: var(--main-color);
-display: flex;
-align-items: stretch;
-padding-left: 25px;
-padding-right: 40px;
-}
-.price {
-    color:#599673;
-}
-
-/* ..................... */
-
 .cabin-rentals-img {
     display: flex;
     justify-content: center;
+    padding-top: 80px;
+padding-bottom: 80px;
+margin: 10px;
 }
 
 .box {
@@ -101,8 +58,14 @@ padding-right: 40px;
 .cards-img {
     width: 100%;
     border-radius: 10px;
+    
 }
 
-.list {
+.botton {
     margin-top: 50px;
+    
 }
+ section  {
+    background-color: #e7e5e3; 
+ }
+ 
