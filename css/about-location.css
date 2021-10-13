@@ -61,6 +61,7 @@
     padding: 90px 24px;
     background-image: url(../img/about-location/section-services/bg.jpg);
     background-size: cover;
+    background-position: center;
     width: 100%;
 }
 
@@ -110,10 +111,11 @@
 
 .season-activities-header p {
     font-family: "Circular Std", serif;
-    font-size: 44px;
+    font-size: 34px;
     font-weight: 500;
-    line-height: 52px;
+    line-height: 40px;
     text-align: center;
+    letter-spacing: -0.7px;
 }
 
 .season-activities-boxes {
@@ -122,7 +124,7 @@
 }
 
 .season-activities-box {
-    padding: 0 15px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,27 +138,25 @@
 
 .season-activities-p-name {
     font-family: "Circular Std", serif;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 30px;
+    letter-spacing: normal;
     text-align: left    ;
 }
 
 .season-activities-p-text {
     line-height: 25.6px;
     text-align: left;
+    letter-spacing: normal;
 }
 
 .season-activities-list {
     margin-top: 20px;
 }
 
-.season-activities-column-list {
-    display: flex;
-    flex-direction: row;
-}
 
-.season-activities-ul div{
+.season-activities-list div {
     display: flex;
     flex-direction: row;
     line-height: 25.6px;
@@ -164,7 +164,7 @@
     margin-right: 15px;
 }
 
-.season-activities-ul img {
+.season-activities-list img {
     width: 25px;
     height: 25px;
 }
@@ -208,26 +208,24 @@
     background-image: url(../img/about-location/section-form/bg.jpg);
     background-attachment: fixed ;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
 }
 
 .section-form-boxes {
-    padding: 80px 40px;
+    padding: 80px 24px;
 }
 
-.section-form-box {
+.section-form-text-box {
     margin-top: 30px;
-    padding: 0 15px;
 }
 
 .section-form-box-big-text {
     color: white;
     text-align: left;
     font-family: "Circular Std", serif;
-    font-size: 44px;
+    font-size: 34px;
     font-weight: 500;
-    line-height: 52px;
+    line-height: 40px;
+    text-align: left;
 }
 
 .section-form-box-small-text {
@@ -236,4 +234,40 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 30.4px;
+}
+
+.section-form-box {
+    background-color: rgba(40, 37, 32, 0.8);
+    padding: 31px 27px;
+}
+
+.section-form-input {
+    margin-bottom: 24px;
+}
+
+.section-form-input input {
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 0;
+    padding: 16px 24px;
+    border-radius: 34px;
+    width: 100%;
+    outline-color: #3b99fc;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.568);
+
+}
+
+.section-form-button {
+    margin-top: 56px;
+    padding: 16px 24px;
+    width: 100%;
+    border: 0;
+    background-color: #f98250;
+    border-radius: 34px;
+}
+
+.section-form-button span {
+    color: white;
 }
