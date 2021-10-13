@@ -324,6 +324,19 @@ input::placeholder {
     .season-activities-list div {
         margin-bottom: 5px;
     }
+
+    .section-form-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-form-text-box {
+        width: 40%;
+    }
+    /* .section-form-box {
+        margin-left: 0 30px;
+    } */
 }
 
 @media (min-width: 980px) {
