@@ -2,8 +2,7 @@
 :root {
     --main-color: #292827;
     --accent-color:  #e9e6e3
-
-}
+    }
 @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);}
@@ -15,6 +14,13 @@
 } */
 /* Зробив 100% withd, видалив margin, додав padding ( для img) */
 
+@media (min-width: 750px) {
+    .box  {
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+        
+    }
+}
 h1,h2,h3,p {
     font-family: "Circular Std";
     justify-content: flex-start;
@@ -39,10 +45,11 @@ h3 {
     text-align: left;
 }
 
-
 .cabin-rentals-img {
     display: flex;
     justify-content: center;
+    padding-top: 80px;
+padding-bottom: 80px;
 }
 
 .box {
@@ -52,10 +59,12 @@ h3 {
 .cards-img {
     width: 100%;
     border-radius: 10px;
+    
 }
 
-.list {
+.botton {
     margin-top: 50px;
+    
 
 }
  section  {
