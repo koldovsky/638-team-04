@@ -25,6 +25,7 @@ h4, h5 ,h6 {
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
     background-position: 50%;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
@@ -108,6 +109,7 @@ h4, h5 ,h6 {
 
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon-adventure.webp);
+    background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
 }
