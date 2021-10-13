@@ -303,15 +303,14 @@ h4, h5 ,h6 {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 .shop-cafe div {
-  
-}
-
-.shop-block {
-    padding: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
 }
 
 .shop-cafe div p {
@@ -320,18 +319,43 @@ h4, h5 ,h6 {
     font-family: "Circular Std";
     text-align: center;
     color: white;
-
+    
 }
-.shop-cafe div span {
+.shop-cafe div .text {
+    font-family: "Roboto";
     color: #d1d1d1;
     text-align: center;
     font-size: 19px;
+    font-weight: 100;
 }
 
 .shop-cafe div img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+    
+}
+
+.shop-cafe .shop-block .title {
+    font-family: "Circular Std";
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-weight: 200;
+}
+
+.shop-cafe .shop-block .text {
+    font-family: "Roboto";
+    color: #d1d1d1;
+    text-align: center;
+    font-size: 16px;
+}
+
+.shop-block {
+    padding: 15px;
+    background-color: #407861;
+    border-radius: 15px;
     
 }
 
