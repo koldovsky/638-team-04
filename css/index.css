@@ -289,12 +289,21 @@ h4, h5 ,h6 {
 
 .our-facilities div {
     margin: 5px;
+    padding: 10px;
 }
 
 .our-facilities img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .our-facilities img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
 }
 
 .shop-cafe {
@@ -332,7 +341,13 @@ h4, h5 ,h6 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
-    
+}
+@media (min-width: 768px) {
+    .shop-cafe div img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
 }
 
 .shop-cafe .shop-block .title {
@@ -378,6 +393,15 @@ h4, h5 ,h6 {
     max-height: 100%;
     border-radius: 10px;  
     margin: 5px;
+}
+
+@media (min-width: 768px) {
+    .testimonials div img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;  
+        margin: 5px;
+    }
 }
 
 .testimonials-button {
