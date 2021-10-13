@@ -55,6 +55,9 @@
     object-fit: cover;
 }
 
+.empty-column {
+    display: none;
+}
 /* Section services............................................................................................ */
 
 .services{
@@ -270,4 +273,26 @@ input::placeholder {
 
 .section-form-button span {
     color: white;
+}
+
+/* Media...................................................................... */
+@media (min-width: 750px) {
+    .about-yosamite-box{
+        padding: auto;
+    }
+    .empty-column {
+        display: block;
+        padding: 0 15px;
+        width: 45%;
+        height: auto;
+    }
+    .about-yosamite-box-desc {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-yosamite-text h2{
+        font-size: 39px;
+        line-height: 46px;
+    }
 }
