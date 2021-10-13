@@ -307,6 +307,23 @@ input::placeholder {
         width: 45%;
         margin: 0 10px;
     }
+
+    .season-activities-header p {
+        font-size: 39px;
+        line-height: 46px;
+    }
+    .season-activities-boxes {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+    }
+    .season-activities-box {
+        margin: 0 20px;
+    }
+
+    .season-activities-list div {
+        margin-bottom: 5px;
+    }
 }
 
 @media (min-width: 980px) {
