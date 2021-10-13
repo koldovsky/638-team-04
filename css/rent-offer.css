@@ -7,18 +7,13 @@
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);}
 
-/* img {
-    width: 100%;
-    border-radius: 10px;   
-    padding: 0 15px;
-} */
-/* Зробив 100% withd, видалив margin, додав padding ( для img) */
 
 @media (min-width: 750px) {
     .box  {
         display: grid;
         grid-template-columns: 7fr 3fr;
-        
+        grid-column-gap: 30px;
+        grid-column: 35px;
     }
 }
 h1,h2,h3,p {
@@ -31,10 +26,12 @@ h1 {
     font-size: 39px;
     font-family: "Circular Std";
     text-align: center;
+    padding-top: 80px;
 }
 h2 {
     font-size: 35px;
     text-align: left;
+    padding-top: 80px;
 }
 .price {
     color: #599673;
@@ -65,7 +62,6 @@ padding-bottom: 80px;
 .botton {
     margin-top: 50px;
     
-
 }
  section  {
     background-color: #e7e5e3; 
