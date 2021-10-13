@@ -295,4 +295,22 @@ input::placeholder {
         font-size: 39px;
         line-height: 46px;
     }
+
+    .services-card-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 30%;
+    }
 }
