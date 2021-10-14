@@ -9,7 +9,7 @@
 
 
 @media (min-width: 750px) {
-    .box  {
+    .products  {
         display: grid;
         grid-template-columns: 7fr 3fr;
         grid-column-gap: 30px;
@@ -51,7 +51,7 @@ padding-bottom: 80px;
 margin: 10px;
 }
 
-.box {
+.boxes {
     padding: 0 24px;
 }
 
@@ -61,7 +61,7 @@ margin: 10px;
     
 }
 
-.botton {
+.bottons {
     margin-top: 50px;
     
 }
