@@ -295,4 +295,52 @@ input::placeholder {
         font-size: 39px;
         line-height: 46px;
     }
+
+    .services-card-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+        margin: 0 10px;
+    }
+
+    .season-activities-header p {
+        font-size: 39px;
+        line-height: 46px;
+    }
+    .season-activities-boxes {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+    }
+    .season-activities-box {
+        margin: 0 20px;
+    }
+
+    .season-activities-list div {
+        margin-bottom: 5px;
+    }
+
+    .section-form-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-form-text-box {
+        width: 40%;
+    }
+    /* .section-form-box {
+        margin-left: 0 30px;
+    } */
+}
+
+@media (min-width: 980px) {
+    .card {
+        width: 30%;
+    }
 }

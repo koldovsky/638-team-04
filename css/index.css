@@ -25,6 +25,7 @@ h4, h5 ,h6 {
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
     background-position: 50%;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
@@ -108,6 +109,7 @@ h4, h5 ,h6 {
 
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon-adventure.webp);
+    background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -289,12 +291,21 @@ h4, h5 ,h6 {
 
 .our-facilities div {
     margin: 5px;
+    padding: 10px;
 }
 
 .our-facilities img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .our-facilities img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
 }
 
 .shop-cafe {
@@ -332,7 +343,13 @@ h4, h5 ,h6 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
-    
+}
+@media (min-width: 768px) {
+    .shop-cafe div img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
 }
 
 .shop-cafe .shop-block .title {
@@ -378,6 +395,15 @@ h4, h5 ,h6 {
     max-height: 100%;
     border-radius: 10px;  
     margin: 5px;
+}
+
+@media (min-width: 768px) {
+    .testimonials div img {
+        max-width: 40%;
+        max-height: 100%;
+        border-radius: 10px;  
+        margin: 5px;
+    }
 }
 
 .testimonials-button {
