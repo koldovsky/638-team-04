@@ -1,2 +1,2 @@
-const clockContainer = document.querySelector('clock');
+ const clockContainer = document.querySelector('.clock');
 setInterval( () => clockContainer.innertext = new Date().toLocaleTimeString(), 1000 ); 
