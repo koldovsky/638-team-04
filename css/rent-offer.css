@@ -65,7 +65,7 @@ margin: 10px;
 .bottons {
     margin-top: 60px;
     padding: 0 24px;
-    
+    grid-template-columns: 7fr 3fr;
 }
  section  {
     background-color: #e7e5e3; 
