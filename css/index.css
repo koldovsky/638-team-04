@@ -193,10 +193,69 @@ h4, h5 ,h6 {
 
 }
 
-
-
 .cabin-rentals{
     background-image: url(../img/index/cabin-rentals/fon-cabin.webp);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cabin-title{
+    font-size: 44px;
+    color: white;
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.cabin-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.cabin-cards-blocks{
+    margin: auto;
+    padding: 15px;
+}
+
+.card-river-chalet{
+    background-image: url(../img/index/cabin-rentals/riverchalet.webp);
+}
+.card-lookout-lodge{
+    background-image: url(../img/index/cabin-rentals/lookoutlodge.webp);
+}
+.card-smoky-view{
+    background-image: url(../img/index/cabin-rentals/smokyview.webp);
+}
+.card-mountain-haven{
+    background-image: url(../img/index/cabin-rentals/mountainhaven.webp);
+}
+
+.cabin-bottom{
+   text-align: center;
+   margin: 10px;
+}
+.cabin-button{
+    margin: 7px;
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+.cabin-button:hover {
+    transition: 1s;
+	background-color:#ffffff;
+    color: #000;
+}
+.cabin-button:active {
+	position:relative;
+	top:1px;
 }
 
 .things-to-do{
