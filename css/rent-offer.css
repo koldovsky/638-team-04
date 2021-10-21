@@ -70,4 +70,6 @@ margin: 10px;
  section  {
     background-color: #e7e5e3; 
  }
- 
+ .reservation {
+    background-image: url(../img/index/reservation/reservation-background.webp);
+}
