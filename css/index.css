@@ -200,8 +200,8 @@ h4, h5 ,h6 {
     padding-bottom: 80px;
 }
 
-.cabin-title{
-    font-size: 44px;
+.cabin-title > h2{
+    font-size: 34px;
     color: white;
     margin: 30px 15px;
     text-align: center;
@@ -209,12 +209,24 @@ h4, h5 ,h6 {
 
 .cabin-cards{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+    /*grid-template-columns: repeat(2, 1fr);*/
     
 }
 .cabin-cards-blocks{
-    margin: auto;
+    margin: 30px auto;
     padding: 15px;
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+    height: 350px;
+    
+}
+
+.cabin-cards-blocks > h2, h4, p, a{
+    margin: 10px;
+    color: white;
+    
 }
 
 .card-river-chalet{
