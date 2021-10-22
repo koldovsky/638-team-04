@@ -43,10 +43,10 @@
         for (const card of cards) {
             cardsContainer.innerHTML += `
             <div class="card">
-                <img src="${cards.image}" class="card-img-top" alt="${cards.title}">
+                <img src="${card.image}" class="card-img-top" alt="${card.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${cards.title}</h5>
-                    <p class="card-text">${cards.description}</p>
+                    <h5 class="card-title">${card.title}</h5>
+                    <p class="card-text">${card.description}</p>
                 </div>
             </div>
             `
