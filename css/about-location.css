@@ -10,6 +10,7 @@
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
 }
+
 /* Section About Yosemite................................................................................ */
 
 .about-yosamite {
@@ -22,6 +23,7 @@
     justify-content: center;
     padding: 0 24px;
 }
+
 .about-yosamite-content {
     max-width: 55%;
     line-height: 26px;
@@ -29,20 +31,24 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
 .about-yosamite-text {
     text-align: center;
 }
-.about-yosamite-text h2{
+
+.about-yosamite-text h2 {
     font-weight: 500;
     font-size: 34px;
     font-family: "Circular Std", serif;
     line-height: 40px;
 }
-.about-yosamite-text p{
+
+.about-yosamite-text p {
     font-weight: 400;
     margin-top: 45px;
 }
-.about-yosamite-photo{
+
+.about-yosamite-photo {
     display: flex;
     justify-content: center;
     margin: 45px 0 0 0;
@@ -58,9 +64,10 @@
 .empty-column {
     display: none;
 }
+
 /* Section services............................................................................................ */
 
-.services{
+.services {
     padding: 90px 24px;
     background-image: url(../img/about-location/section-services/bg.jpg);
     background-size: cover;
@@ -105,6 +112,7 @@
     line-height: 25.6px;
     text-align: center;
 }
+
 /* Section Season Activities................................................................................ */
 
 .season-activities {
@@ -145,7 +153,7 @@
     font-weight: 500;
     line-height: 30px;
     letter-spacing: normal;
-    text-align: left    ;
+    text-align: left;
 }
 
 .season-activities-p-text {
@@ -175,12 +183,13 @@
 .season-activities-spa {
     padding: 80px 0 0 0;
 }
-.season-activities-spa div{
+
+.season-activities-spa div {
     margin-top: 30px;
     padding: 0 15px;
 }
 
-.season-activities-spa h2{
+.season-activities-spa h2 {
     text-align: center;
     font-family: "Circular Std", serif;
     font-size: 25px;
@@ -200,16 +209,16 @@
 }
 
 .season-activities-spa-photo img {
-   width: 100%;
-   border-radius: 10px;
-   object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 /* Section form................................................................................................................. */
 
 .section-form {
     background-image: url(../img/about-location/section-form/bg.jpg);
-    background-attachment: fixed ;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -277,21 +286,23 @@ input::placeholder {
 
 /* Media...................................................................... */
 @media (min-width: 750px) {
-    .about-yosamite-box{
+    .about-yosamite-box {
         padding: auto;
     }
+
     .empty-column {
         display: block;
         padding: 0 15px;
         width: 45%;
         height: auto;
     }
+
     .about-yosamite-box-desc {
         display: flex;
         flex-direction: row;
     }
 
-    .about-yosamite-text h2{
+    .about-yosamite-text h2 {
         font-size: 39px;
         line-height: 46px;
     }
@@ -312,11 +323,13 @@ input::placeholder {
         font-size: 39px;
         line-height: 46px;
     }
+
     .season-activities-boxes {
         display: flex;
         flex-direction: row;
-        align-items:flex-start;
+        align-items: flex-start;
     }
+
     .season-activities-box {
         margin: 0 20px;
     }
@@ -328,15 +341,12 @@ input::placeholder {
     .section-form-boxes {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    .section-form-text-box {
-        width: 40%;
+    .section-form-box {
+        width: 30%;
     }
-    /* .section-form-box {
-        margin-left: 0 30px;
-    } */
 }
 
 @media (min-width: 980px) {
