@@ -43,13 +43,14 @@
         for (const card of cards) {
             cardsContainer.innerHTML += `
             <div class="card">
-                        <img src="${cards.image}" class="card-img-top" alt="${cards.title}">
-                        <div class="card-body">
-                            <h5 class="card-title">${cards.title}</h5>
-                            <p class="card-text">${cards.description}</p>
-                        </div>
-                    </div>
+                <img src="${cards.image}" class="card-img-top" alt="${cards.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${cards.title}</h5>
+                    <p class="card-text">${cards.description}</p>
+                </div>
+            </div>
             `
         }
     }
+    renderCards(cards);
 })();
