@@ -506,3 +506,69 @@ h4, h5 ,h6 {
 .reservation {
     background-image: url(../img/index/reservation/reservation-background.webp);
 }
+
+.reservation div {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.reservation h2 {
+   font-size: 34px;
+    
+}
+
+.reservation h4 {
+   font-size: 19px;
+   color: #848484;
+}
+
+.reservation input {
+    width: 65%;
+    margin-top: 12px;
+    padding: 16px 24px;
+    border-radius: 28px;
+    background-color: rgba(40, 37, 32, 0.12);
+    border: 1px solid rgba(40, 37, 32, 0.12);
+    font-family: "Roboto";
+}
+
+.reservation select {
+    width: 80%;
+    margin-top: 12px;
+    padding: 16px 24px;
+    border-radius: 28px;
+    background-color: rgba(40, 37, 32, 0.12);
+    border: 1px solid rgba(40, 37, 32, 0.12);
+    font-family: "Roboto";
+}
+
+.make-a-button {
+    margin: 7px;
+    background-color: #f98250;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    padding: 16px 31px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.make-a-button:hover {
+    transition: 1s;
+    background-color:#88b299;
+    color: #000;
+}
+
+.make-a-button:active {
+    position:relative;
+    top:1px;
+}
