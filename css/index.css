@@ -494,6 +494,16 @@ h4, h5 ,h6 {
     align-items: center;
 }
 
+.testimonials .left-block {
+
+}
+.testimonials .center-block {
+
+}
+.testimonials .right-block {
+    
+}
+
 .testimonials div img {
     max-width: 100%;
     max-height: 100%;
