@@ -78,7 +78,7 @@ h4, h5 ,h6 {
 .order-button {
     width: 100%;
     margin: 0px 7px;
-    background-color: coral;
+    background-color: #f98250;
     border-radius:28px;
     border:1px solid #ffffff;
     display:inline-block;
