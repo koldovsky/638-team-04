@@ -11,9 +11,9 @@
     src: url(../fonts/circular-std.ttf);
 }
 
-header .header-top{
+.header-top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -22,6 +22,12 @@ header .header-top{
 
 .header-top p{
     display: none;
+}
+
+.header-numbers{
+    display: none;
+    text-decoration: none;
+    color: #f98250;
 }
 
 header img{
@@ -47,7 +53,12 @@ header img{
     .header-top p{
         display: block;
     }
+    .header-numbers{
+        display: block;
+    }
   }
+
+  
 
 .menu a{
     color: black;
@@ -57,6 +68,6 @@ header img{
 }
 
 .menu a:hover {
-    color: coral;
+    color: #f98250;
   }
 
