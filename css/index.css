@@ -21,6 +21,10 @@ h4, h5 ,h6 {
     font-family: "Roboto";
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 
 .order-call{
     background-image: url(../img/index/order-call/fon-order.jpg);
@@ -213,63 +217,85 @@ h4, h5 ,h6 {
     
 }
 .cabin-cards-blocks{
-    margin: 30px auto;
-    padding: 15px;
-    background-size: cover;
-    border-radius: 5%;
+    margin: 30px 25px;
+    padding: 43px 29px;
+    border-radius: 10px;
     text-align: center;
-    height: 350px;
-       
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.cabin-cards-blocks > h2, h4, a{
-    margin: 10px;
-    color: white;    
+.cabin-cards-blocks > h2{
+    font-size: 34px;
+    color: white; 
+}
+.cabin-cards-blocks > h4{
+    font-size: 22px;
+    color: white; 
 }
 
 .cabin-cards-blocks > p{
     color: var(--text-color);
+    margin-top: -20px;
+}
+
+.cabin-cards-text{
+    display: grid;
+    grid-template-rows: 3fr, 3fr, 3fr;
 }
 
 .card-river-chalet{
-    background-image: url(../img/index/cabin-rentals/riverchalet.webp);
+    background: linear-gradient( rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8) ), url(../img/index/cabin-rentals/riverchalet.webp);
+    background-size: cover;
 }
 .card-lookout-lodge{
-    background-image: url(../img/index/cabin-rentals/lookoutlodge.webp);
+    background: linear-gradient( rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8) ), url(../img/index/cabin-rentals/lookoutlodge.webp);
+    background-size: cover;
 }
 .card-smoky-view{
-    background-image: url(../img/index/cabin-rentals/smokyview.webp);
+    background: linear-gradient( rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8) ), url(../img/index/cabin-rentals/smokyview.webp);
+    background-size: cover;
 }
 .card-mountain-haven{
-    background-image: url(../img/index/cabin-rentals/mountainhaven.webp);
+    background: linear-gradient( rgba(35, 34, 33, 0.8), rgba(35, 34, 33, 0.8) ), url(../img/index/cabin-rentals/mountainhaven.webp);
+    background-size: cover;
 }
 
 .cabin-bottom{
    text-align: center;
-   margin: 10px;
+   margin: 10px auto;
 }
 .cabin-button{
-    margin: 7px;
-    background-color:transparent;
+    margin: 7px auto;
+	background-color:#f98250;
 	border-radius:28px;
-	border:1px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"Roboto";
+	font-family: "Roboto";
 	font-size:15px;
 	padding:16px 31px;
 	text-decoration:none;
     font-weight: bold;
+    max-width: 130px;
+    
 }
 .cabin-button:hover {
     transition: 1s;
-	background-color:#ffffff;
+    background-color:#ffffff;
     color: #000;
 }
 .cabin-button:active {
 	position:relative;
 	top:1px;
+}
+
+@media (min-width: 768px){
+    .cabin-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .things-to-do{
@@ -279,22 +305,19 @@ h4, h5 ,h6 {
     padding-bottom: 80px;
 }
 
-.things-title{
-    text-align: center;
-
-}
 .things-title > h2{
     font-size: 34px;
+    text-align: center;
 }
 
 .things-block{
     display: grid;
-    margin: 30px 15px;
+    margin: 30px auto;
 }
 
 .things-card-blocks{
     background-color: white;
-    border-radius: 5%;
+    border-radius: 10px;
     text-align: center;
     margin: 25px 15px;
     display: flex;
@@ -304,16 +327,50 @@ h4, h5 ,h6 {
 .things-card-blocks > img{
     padding: 10px;
     width: 100%;
-    border-radius: 10%;
+    border-radius: 20px;
     margin-left: -10px;
 }
+
+.things-card-blocks > h2{
+    padding: 5px;
+    font-weight: 500;
+}
+
+.things-card-blocks > h3{
+    padding: 5px;
+    color: #f98250;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.things-card-blocks > p{
+    padding: 5px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+@media (min-width: 768px){
+    .things-block{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px){
+    .things-block{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
 
 /* Second Half */
 .get-full-answer {
     padding: 60px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
-    background-repeat: no-repeat;
-    background-position: center;
+    /*background-repeat: no-repeat;
+    background-position: center;*/
+    background-size: cover;
 
 }
 .get-full-answer div {
