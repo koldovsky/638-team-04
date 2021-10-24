@@ -18,7 +18,7 @@
 /* Block 3 */
 .contact-map {
     width: 100%;
-    height: 800px;
+    height: 400px;
 }
 
 /* Block 4 */
@@ -101,4 +101,44 @@ input::placeholder {
 
 .section-form-button span {
     color: white;
+}
+
+@media (min-width: 750px) {
+    .contact-map {
+        height: 800px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-form-header {
+        text-align: left;
+        font-family: "Circular Std", serif;
+        font-size: 39px;
+        font-weight: 500;
+        line-height: 46px;
+    }
+
+    .call-us-a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-text {
+        margin-bottom: 30px;
+    }
+
+    .contact-form-list>div {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0;
+    }
+
+    .section-form-box {
+        width: 40%;
+        margin-left: 20px;
+    }
 }
