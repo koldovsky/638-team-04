@@ -114,6 +114,7 @@ h4, h5 ,h6 {
 .adventure-starts{
     background-image: url(../img/index/adventure-starts/fon-adventure.webp);
     background-size: cover;
+    background-position: 11%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -230,6 +231,7 @@ h4, h5 ,h6 {
 .cabin-cards-blocks > h2{
     font-size: 34px;
     color: white; 
+    font-weight: 500;
 }
 .cabin-cards-blocks > h4{
     font-size: 22px;
