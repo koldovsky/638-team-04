@@ -69,7 +69,7 @@
  section  {
             background-color: #e7e5e3; 
  }
- /*.section-form {
+ .section-form {
    background-image: url(../img/about-location/section-form/bg.jpg);
    background-attachment: fixed;
    background-size: cover;
@@ -127,4 +127,4 @@ input::placeholder {
    border: 0;
    background-color: #f98250;
    border-radius: 50px;
-}*/
+}
