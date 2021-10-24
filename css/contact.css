@@ -12,6 +12,41 @@
 }
 
 /* Block 1 */
+h1 {
+    font-size: 39px;
+    font-family: "Circular Std";
+    text-align: center;
+    margin: 15px;
+    }
+h5 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: flex-start;
+    color: var(--main-color);
+    margin: 25px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+  }
+  h6 {
+    font-size: 18px;
+    text-align:inherit;
+    padding: 1em 1px 30px 5px;
+    justify-content: none;
+    color: var(--main-color);
+    margin: 25px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    
+imgan.railways {
+    margin: 1 em;
+}
+  
+  
+ 
+
 
 /* Block 2 */
 

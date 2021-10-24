@@ -16,12 +16,8 @@
       grid-column: 35px;
       padding: 0 24px;
    }
-
 }
-
-h1,
-h2,
-h3 {
+h1,h2,h3 {
    font-family: "Circular Std";
    justify-content: flex-start;
    color: var(--main-color);
