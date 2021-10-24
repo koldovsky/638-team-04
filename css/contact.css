@@ -1,11 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+}
+
 /* Block 1 */
 
 /* Block 2 */
 
 /* Block 3 */
-.about-map {
+.contact-map {
     width: 100%;
     height: 800px;
 }
 
 /* Block 4 */
+.contact-form {
+    background: rgba(0, 0, 0, 0.753) url(../img/contact/form/bg.jpg);
+    background-size: cover;
+    padding: 90px 24px;
+}
+
+.contact-form-header {
+    text-align: left;
+    font-family: "Circular Std", serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-form-text {
+    text-align: left;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact-form-list>div {
+    margin-bottom: 16px;
+}
+
+.contact-form-list>div>h3 {
+    text-align: left;
+    font-family: "Circular Std", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contact-form-list>div>a,
+p {
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: white;
+}
+
+.section-form-box {
+    background-color: white;
+    padding: 31px 27px;
+    border-radius: 10px;
+}
+
+.section-form-input {
+    margin-bottom: 24px;
+}
+
+.section-form-input input {
+    background-color: rgba(36, 31, 31, 0.24);
+    border: 0;
+    padding: 16px 24px;
+    border-radius: 34px;
+    width: 100%;
+    outline-color: #3b99fc;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.568);
+
+}
+
+.section-form-button {
+    margin-top: 36px;
+    padding: 16px 24px;
+    width: 100%;
+    border: 0;
+    background-color: #f98250;
+    border-radius: 34px;
+}
+
+.section-form-button span {
+    color: white;
+}
