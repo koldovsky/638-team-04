@@ -71,3 +71,65 @@ header img{
     color: #f98250;
   }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    max-width: 143px;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+}
+
+.menu-footer > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+    font-weight: 400;
+}
+
+.bold-block{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.bold{
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+    font-weight: 600;
+}
+
+.follow{
+    padding: 50px auto;
+}
+
+.follow > h3{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.follow > a{
+    margin: 5px;
+}
+
+.footer-bottom{
+    color: rgb(40, 37, 32);
+    margin: 20px;
+}
+
+.footer-bottom > p{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
