@@ -1,86 +1,102 @@
 :root {
-         --main-color: #292827;
-         --accent-color:  #e9e6e3
- }
- @font-face {
-            font-family: "Circular Std";
-            src: url(../fonts/circular-std.ttf);
- }
+   --main-color: #292827;
+   --accent-color: #e9e6e3
+}
 
- @media (min-width: 750px) {
-    .products  {
-                display: grid;
-                grid-template-columns: 7fr 3fr;
-                grid-column-gap: 30px;
-                grid-column: 35px;
-                padding: 0 24px;
-    }
-       
- }
- h1,h2,h3 {
-            font-family: "Circular Std";
-            justify-content: flex-start;
-            color: var(--main-color);
- }
-   
- h1 {
-    font-size: 39px;
-    font-family: "Circular Std";
-    text-align: center;
-    padding-top: 80px;
- }
- h2 {
-    font-size: 35px;
-    text-align: left;
-    padding-top: 80px;
- }
- .price {
-    color: #599673;
-    }
+@font-face {
+   font-family: "Circular Std";
+   src: url(../fonts/circular-std.ttf);
+}
 
- h3 {
-    font-size: 25px; 
-    text-align: left;
- }
+@media (min-width: 750px) {
+   .products {
+      display: grid;
+      grid-template-columns: 7fr 3fr;
+      grid-column-gap: 30px;
+      grid-column: 35px;
+      padding: 0 24px;
+   }
 
- .cabin-rentals-img {
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin: 10px;
- }
+}
 
- .boxes {
-    padding: 0 24px;
- }
+h1,
+h2,
+h3 {
+   font-family: "Circular Std";
+   justify-content: flex-start;
+   color: var(--main-color);
+}
 
- .cards-img {
-    width: 100%;
-    border-radius: 10px;
- }
- .bottons {
-    margin-top: 60px;
-    padding: 0 24px;
-    grid-template-columns: 7fr 3fr;
-    color:var(--main-color)
-            font-family: "Circular Std";
-            justify-content: flex-start; }
- section  {
-            background-color: #e7e5e3; 
- }
- .section-form {
+h1 {
+   font-size: 39px;
+   font-family: "Circular Std";
+   text-align: center;
+   padding-top: 80px;
+}
+
+h2 {
+   font-size: 35px;
+   text-align: left;
+   padding-top: 80px;
+}
+
+.price {
+   color: #599673;
+}
+
+h3 {
+   font-size: 25px;
+   text-align: left;
+}
+
+.cabin-rentals-img {
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   margin: 10px;
+}
+
+.boxes {
+   padding: 0 24px;
+}
+
+.cards-img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.bottons {
+   margin-top: 60px;
+   padding: 0 24px;
+   grid-template-columns: 7fr 3fr;
+   color: var(--main-color);
+   font-family: "Circular Std";
+   justify-content: flex-start;
+}
+
+section {
+   background-color: #e7e5e3;
+}
+
+.section-form {
    background-image: url(../img/about-location/section-form/bg.jpg);
    background-attachment: fixed;
    background-size: cover;
 }
+
 .section-form-boxes {
    padding: 80px 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
+
 .section-form-text-box {
    margin-top: 30px;
    color: var(--main-color);
 }
+
 .section-form-box-big-text {
    color: white;
    text-align: left;
@@ -102,6 +118,7 @@
 .section-form-box {
    background-color: white;
    padding: 31px 27px;
+   width: 50%;
 }
 
 .section-form-input {
@@ -110,21 +127,23 @@
 }
 
 .section-form-input input {
-   background-color:rgb(212, 212, 212);
+   background-color: rgb(212, 212, 212);
    border: 0;
    padding: 16px 24px;
    border-radius: 40px;
-   width: 50%;
+   width: 100%;
    outline-color: #f58f09;
 }
+
 input::placeholder {
    color: rgba(255, 255, 255, 0.568);
 }
+
 .section-form-button {
    margin-top: 50px;
    padding: 16px 24px;
-   width: 50%;
    border: 0;
    background-color: #f98250;
    border-radius: 50px;
+   width: 100%;
 }
