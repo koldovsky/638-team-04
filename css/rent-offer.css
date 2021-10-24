@@ -70,12 +70,12 @@
  section  {
             background-color: #e7e5e3; 
  }
- input placeholder {
-         background-color: rgba(255, 255, 255, 0.24);
-    border: 0;
-    padding: 16px 24px;
+ .footer.reservation.input-placeholder {
+  
+    border: 300;
+    padding: 12px 20px;
     border-radius: 34px;
     width: 100%;
-    outline-color: #3b99fc;
+    outline-color: #f7640e;
      }
                 
