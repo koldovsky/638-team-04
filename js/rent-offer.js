@@ -66,7 +66,6 @@
              image: 'img/rent-offer/mountain-splash.webp'
          }
     ]
-
     function renderProducts(products) {
         const productsContainer = document.getElementById('products');
         let content = '';
