@@ -152,12 +152,14 @@ header img{
     .footer-top{
        flex-direction: row;
        justify-content: space-between;
+       margin: 0px auto;
     }
     .menu-footer{
         flex-direction: row;
         justify-content: space-between;
     }
     .footer-bottom{
+        margin: 5px auto;
         display: flex;
         justify-content: space-between;
     }
