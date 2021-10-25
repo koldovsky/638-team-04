@@ -2,7 +2,7 @@
     const products = [
         {
             id: 1,
-            title: 'Rever chalet',
+            title: 'River chalet',
             itemsList: ['✅ 1 Bedroom',
                 '✅ 1 Bathroom',
                 '✅ Sleeps 2',
@@ -15,7 +15,7 @@
         },
         {
             id: 2,
-            title: 'Lookout lodge',
+            title: 'Lookout Lodge',
             itemsList: ['✅ 2 Bedrooms',
                 '✅ 1 Bathroom',
                 '✅ Sleeps 4',
