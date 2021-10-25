@@ -12,7 +12,7 @@
 }
 
 /* Block 1 */
-/* h1 {
+h1 {
     font-size: 39px;
     font-family: "Circular Std";
     text-align: center;
@@ -29,14 +29,16 @@ h5 {
     line-height: 26px;
     display: flex;
     flex-direction: column;
-  }
-  h4 {
-      margin: 20px;
-      color: var(--main-color);
-     
+}
 
-  }
-  h6 {
+h4 {
+    margin: 20px;
+    color: var(--main-color);
+
+
+}
+
+h6 {
     font-size: 18px;
     text-align: inherit;
     padding: 1em 1px 30px 5px;
@@ -46,11 +48,8 @@ h5 {
     line-height: 26px;
     display: flex;
     flex-direction: column;
-  }
+}
 
-    imgan.railways {
-    margin: 1 em;
-} */
 /* Block 2 */
 .main-img-block {
     max-width: 60px;
