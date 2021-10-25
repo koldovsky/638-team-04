@@ -32,6 +32,7 @@
   h4 {
       margin: 20px;
       color: var(--main-color);
+      font: lighter
     }
 
  h6 {
@@ -47,6 +48,36 @@
     }        
 
 /* Block 2 */
+.main_pictures {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-column-gap: 20px;
+    padding: 40px;
+}
+
+.railways {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.two_pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.railway-ways {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lift {
+    width: 100%;
+    border-radius: 10px;
+}
  .main-img-block img {
     max-width: 60px;
     margin: 40px;
@@ -69,33 +100,9 @@
     line-height: 26px;
     display: flex;
     flex-direction: column;
- }
-
- /* Block 2 */
- .contact-block-img {
-    padding: 0 20px;
- }
-
-.contact-section-img img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.little-img-block {
     
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30px 0;
-}
-
-.little-img-block img {
-    margin: 5px 0;
-}
-
-
-
+ }
+ 
 /* Block 3 */
 .contact-map {
     width: 100%;
