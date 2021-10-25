@@ -32,30 +32,31 @@ h5 {
   h4 {
       margin: 20px;
       color: var(--main-color);
-     
+    }
 
+ h6 {
+     font-size: 18px;
+     text-align:inherit;
+     padding: 1em 1px 30px 5px;
+     justify-content: none;
+     color: var(--main-color);
+     margin: 25px;
+     line-height: 26px;
+     display: flex;
+     flex-direction: column;
   }
-  h6 {
-    font-size: 18px;
-    text-align:inherit;
-    padding: 1em 1px 30px 5px;
-    justify-content: none;
-    color: var(--main-color);
-    margin: 25px;
-    line-height: 26px;
-    display: flex;
-    flex-direction: column;
-  }
-
+  .transport-way { 
+        
+}
 /* Block 2 */
-.main-img-block {
+.main-img-block img {
     max-width: 60px;
     margin: 40px;
     display: flex;
     flex-flow:row ;
 }
 .little-img-block {
-    max-width: 30px;
+    
     margin: 40px;
     display: flex;
     flex-flow: column; 
