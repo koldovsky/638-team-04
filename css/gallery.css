@@ -11,7 +11,13 @@ img {
 
 :root {
     width: 100%;
-    max-width: 960px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .header_inner {
@@ -39,6 +45,7 @@ img {
 /* Gallery */
 
 .gallery_menu {
+    margin: auto;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -59,7 +66,9 @@ img {
 
 .br {
     margin-top: 18px;
+    margin-bottom: 18px;
     width: 90%;
+    max-width: 1200px;
     height: 2px;
     background-color: black;
 }
@@ -67,6 +76,9 @@ img {
 /* Gallery Pictures*/
 
 .gallery_pictures {
+    background: #f2f2f2;
+    margin: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -75,6 +87,9 @@ img {
 }
 
 .first_picturesection {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 7fr 3fr;
     grid-column-gap: 10px;
@@ -104,6 +119,9 @@ img {
 /* Second picture block */
 
 .second_picturesection {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     display: grid;
