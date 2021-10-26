@@ -34,12 +34,13 @@ h1 {
 }
 
 h2 {
-   font-size: 35px;
+   font-size: 42px;
    text-align: left;
-   padding-top: 80px;
+   padding-top: 50px;
    font-weight: bold;
    font-family: "Circular Std";
    justify-content: flex-start;
+   margin: 20px;
 }
 
 .price {
@@ -47,11 +48,12 @@ h2 {
 }
 
 h3 {
-   font-size: 25px;
+   font-size: 30px;
    text-align: left;
    font-weight: lighter;
    font-family: "Circular Std";
    justify-content: flex-start;
+   margin: 20px;
 }
 
 .cabin-rentals-img {
