@@ -36,11 +36,12 @@ h1 {
 h2 {
    font-size: 42px;
    text-align: left;
-   padding-top: 50px;
+   padding-top: 60px;
    font-weight: bold;
    font-family: "Circular Std";
    justify-content: flex-start;
-   margin: 20px;
+   margin: 20px 20px;
+   
 }
 
 .price {
