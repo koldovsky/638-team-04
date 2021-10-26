@@ -24,7 +24,9 @@ h1,h2,h3, p {
    justify-content: flex-start;
    color: var(--main-color);
 }
-
+ p {
+    font-size:20px;
+ }
 h1 {
    font-size: 39px;
    font-family: "Circular Std";
@@ -41,7 +43,7 @@ h2 {
    font-family: "Circular Std";
    justify-content: flex-start;
    margin: 20px 20px;
-   
+     
 }
 
 .price {
@@ -89,8 +91,8 @@ section {
 
 .section-form {
    background-image: url(../img/about-location/section-form/bg.jpg);
-   background-attachment: fixed;
-   background-size: cover;
+   background-attachment:initial;
+   background-size:cover;
 }
 
 .section-form-boxes {
@@ -127,8 +129,8 @@ section {
 .section-form-box {
    background-color: white;
    padding: 31px 27px;
-   width: 50%;
-   border-radius: 10px;
+   width: 30em;
+   border-radius: 15px;
 }
 
 .section-form-input {

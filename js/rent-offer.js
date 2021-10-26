@@ -81,7 +81,7 @@
                         <article class="bottons">
                            ${product.itemsList.map(item => `<p>${item}</p>`).join('')}
                         </article>
-                        <a href="#" class="orange-button">${product.price} - RESERVE CABIN</a>
+                        <a href="#" class="orange-button">RESERVE CABIN</a>
                     </article>
                 </div>
             `;
