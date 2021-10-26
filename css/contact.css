@@ -50,17 +50,17 @@ h6 {
 }
 
 /* Block 2 */
-.main_pictures {
+.how-to-get-transport {
     margin: auto;
-    width: 100%;
+    
     max-width: 1200px;
     display: grid;
-    grid-template-columns: 5fr 3fr;
-    grid-column-gap: 20px;
-    padding: 40px;
+    grid-template-columns: 3.5fr 3fr;
+    grid-column-gap: 30px;
+    padding: 20px;
 }
 
-.railways {
+.railways_loc {
     width: 100%;
     border-radius: 10px;
 }
@@ -71,28 +71,48 @@ h6 {
     justify-content: space-between;
 }
 
-.railway-ways {
-    width: 100%;
-    border-radius: 10px;
-}
-
 .lift {
     width: 100%;
     border-radius: 10px;
 }
-
-.main-img-block img {
-    max-width: 60px;
-    margin: 40px;
-    display: flex;
-    flex-flow: row;
+.house {
+    width: 100%;
+    border-radius: 10px;
 }
-
 h4 {
     margin: 20px;
     color: var(--main-color);
+
+}
+/*.first_picturesection {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 10px;
 }
 
+.house_ontree {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.two_pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horses {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.forest {
+    width: 100%;
+    border-radius: 10px;
+}*/
 
 /* Block 3 */
 .contact-map {
