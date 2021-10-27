@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Circular Std";
+    src: url(../fonts/circular-std.ttf);
+}
+
+.rental-policies{
+    background-image: url(../img/rental-policies/fonrental.jpg);
+    padding: 80px 0px;
+}
+
+.rental-top{
+    text-align: center;
+}
+
+
