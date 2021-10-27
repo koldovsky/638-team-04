@@ -127,6 +127,7 @@ h4 {
 /* Block 4 */
 .contact-form {
     background: rgba(0, 0, 0, 0.753) url(../img/contact/form/bg.jpg);
+    background-attachment: fixed;
     background-size: cover;
     padding: 90px 24px;
 }
@@ -147,7 +148,7 @@ h4 {
 }
 
 .contact-form-list>div {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .contact-form-list>div>h3 {
@@ -252,10 +253,9 @@ input::placeholder {
         margin-bottom: 30px;
     }
 
-    .contact-form-list>div {
-        display: flex;
-        justify-content: space-between;
-        margin: 40px 0;
+    .contact-form-list {
+        display: grid;
+        grid-template-columns: 150px 150px;
     }
 
     .section-form-box {
