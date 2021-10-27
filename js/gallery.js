@@ -1,44 +1,44 @@
-(function() {
-    const navigation = [
+(function () {
+    const navItems = [
         {
             id: 1,
-            row_nav: SUMMER,
+            rowNaw: 'summer'
         },
 
         {
-            id: 1,
-            row_nav: WINTER,
+            id: 2,
+            rowNaw: 'winter'
         },
 
         {
-            id: 1,
-            row_nav: SPRING,
+            id: 3,
+            rowNaw: 'spring'
         },
 
         {
-            id: 1,
-            row_nav: AUTUMN,
+            id: 4,
+            rowNaw: 'autumn'
         },
 
         {
-            id: 1,
-            row_nav: FISHING,
+            id: 5,
+            rowNaw: 'fishing'
         },
 
         {
-            id: 1,
-            row_nav: SPA,
-        }
+            id: 6,
+            rowNaw: 'spa'
+        },
     ];
 
-    function renderMenu(navigation) {
-        const navContainer = document.querySelector('.gallery_nav');
-        for (const item of navigation) {
-            gallery_nav.innerHTML += `
-            <a class="row_nav" href="#">${navigation.row_nav}</a>
-            `;
+    function renderMenu(navItems) {
+        const menuContainer = document.querySelector('.gallery_nav');
+        for (const item of navItems) {
+            gallery_nav.inner.HTML += `
+            <a class="row_nav" href="#">${navItems.rowNaw}</a>
+            `
         }
     }
 
-    renderMenu(navigation);
+    renderMenu(navItems);
 })();
