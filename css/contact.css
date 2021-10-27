@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --accent-color: rgb(236, 235, 235);
+}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -6,6 +9,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.background {
+background-color: var(--accent-color);
+}
+}
 @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
@@ -18,8 +25,9 @@ h1 {
     text-align: center;
     margin: 15px;
     font-family: "Circular Std";
+    padding-top: 60px;
     
- }
+}
 
 h5 {
     font-size: 25px;
@@ -35,10 +43,13 @@ h5 {
 }
 
 h4 {
-    margin: 20px;
     color: var(--main-color);
     font-family: "Circular Std";
-    padding: 15px 6em 0;
+    padding: 15px 125px 0;
+    justify-content: none;
+    text-align:inherit;
+    margin: 10px;
+    line-height: 0;
 }
 
 h6 {
