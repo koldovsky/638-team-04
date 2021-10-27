@@ -38,6 +38,10 @@
 
 /* Gallery */
 
+h1 {
+    font-size: 45px;
+}
+
 .gallery_menu {
     margin: auto;
     align-items: center;
@@ -56,6 +60,16 @@
 .row_nav {
     margin-right: 10px;
     text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+
+.row_nav2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
 }
 
 .br {
@@ -162,12 +176,15 @@
     margin-top: -2px;
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     background-image: url(../img/gallery/bkg.jpg);
     min-height: 176px;
 }
 
+
 .guests {
+    font-size: 35px;
+    font-weight: 700;
     color: #fff;
 }
 
