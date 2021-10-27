@@ -28,7 +28,7 @@ h1,h2,h3, p {
     font-size:20px;
  }
 h1 {
-   font-size: 50px;
+   font-size: 70px;
    font-family: "Circular Std";
    text-align: center;
    padding-top: 80px;
@@ -65,7 +65,7 @@ h3 {
    padding-top: 80px;
    padding-bottom: 80px;
    margin: 10px;
-}
+   }
 
 .boxes {
    padding: 0 24px;

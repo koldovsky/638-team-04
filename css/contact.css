@@ -12,47 +12,51 @@
 }
 
 /* Block 1 */
-.main-text {
-    font-size: 39px;
-    font-family: "Circular Std";
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
     text-align: center;
     margin: 15px;
+    font-family: "Circular Std";
+    
 }
 
 h5 {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    justify-content: flex-start;
-    color: var(--main-color);
-    margin: 25px;
-    line-height: 26px;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align:center;
+    padding: 15px 6em 0;
     display: flex;
     flex-direction: column;
+    position: static;
+    text-transform: none;
+   
+   
 }
 
 h4 {
     margin: 20px;
     color: var(--main-color);
-    font: lighter
+    font-family: "Circular Std";
+    padding: 15px 6em 0;
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: inherit;
-    padding: 1em 1px 30px 5px;
+    line-height: 2;
+    padding: 15px 6em 0;
     justify-content: none;
     color: var(--main-color);
     margin: 25px;
-    line-height: 26px;
-    display: flex;
-    flex-direction: column;
+    
+    
 }
 
 /* Block 2 */
 .how-to-get-transport {
     margin: auto;
-    
     max-width: 1200px;
     display: grid;
     grid-template-columns: 3.5fr 3fr;
@@ -82,37 +86,7 @@ h6 {
 h4 {
     margin: 20px;
     color: var(--main-color);
-
 }
-/*.first_picturesection {
-    margin: auto;
-    width: 100%;
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: 7fr 3fr;
-    grid-column-gap: 10px;
-}
-
-.house_ontree {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.two_pictures {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.horses {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.forest {
-    width: 100%;
-    border-radius: 10px;
-}*/
 
 /* Block 3 */
 .contact-map {
