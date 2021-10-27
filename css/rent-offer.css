@@ -19,14 +19,16 @@
       justify-content: flex-start;
    }
 }
-h1,h2,h3 {
+h1,h2,h3, p {
    font-family: "Circular Std";
    justify-content: flex-start;
    color: var(--main-color);
 }
-
+ p {
+    font-size:20px;
+ }
 h1 {
-   font-size: 39px;
+   font-size: 50px;
    font-family: "Circular Std";
    text-align: center;
    padding-top: 80px;
@@ -34,12 +36,14 @@ h1 {
 }
 
 h2 {
-   font-size: 35px;
+   font-size: 42px;
    text-align: left;
-   padding-top: 80px;
+   padding-top: 60px;
    font-weight: bold;
    font-family: "Circular Std";
    justify-content: flex-start;
+   margin: 20px 20px;
+     
 }
 
 .price {
@@ -47,11 +51,12 @@ h2 {
 }
 
 h3 {
-   font-size: 25px;
+   font-size: 30px;
    text-align: left;
    font-weight: lighter;
    font-family: "Circular Std";
    justify-content: flex-start;
+   margin: 20px;
 }
 
 .cabin-rentals-img {
@@ -86,8 +91,8 @@ section {
 
 .section-form {
    background-image: url(../img/about-location/section-form/bg.jpg);
-   background-attachment: fixed;
-   background-size: cover;
+   background-attachment:initial;
+   background-size:cover;
 }
 
 .section-form-boxes {
@@ -110,6 +115,7 @@ section {
    font-weight: 500;
    line-height: 40px;
    text-align: center;
+   
 }
 
 .section-form-box-small-text {
@@ -123,12 +129,14 @@ section {
 .section-form-box {
    background-color: white;
    padding: 31px 27px;
-   width: 50%;
+   width: 30em;
+   border-radius: 15px;
 }
 
 .section-form-input {
    margin-bottom: 24px;
    border-radius: 34px;
+   
 }
 
 .section-form-input input {
@@ -141,7 +149,7 @@ section {
 }
 
 input::placeholder {
-   color: rgba(255, 255, 255, 0.568);
+   color: rgba(5, 5, 5, 0.568);
 }
 
 .section-form-button {
