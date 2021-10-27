@@ -52,7 +52,7 @@ h6 {
 /* Block 2 */
 .how-to-get-transport {
     margin: auto;
-    
+
     max-width: 1200px;
     display: grid;
     grid-template-columns: 3.5fr 3fr;
@@ -75,15 +75,18 @@ h6 {
     width: 100%;
     border-radius: 10px;
 }
+
 .house {
     width: 100%;
     border-radius: 10px;
 }
+
 h4 {
     margin: 20px;
     color: var(--main-color);
 
 }
+
 /*.first_picturesection {
     margin: auto;
     width: 100%;
