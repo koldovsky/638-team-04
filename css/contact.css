@@ -1,7 +1,7 @@
 :root {
     --accent-color: rgb(236, 235, 235);
 }
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -10,58 +10,44 @@
 }
 
 .background {
-background-color: var(--accent-color);
+    background-color: var(--accent-color);
 }
-}
+
 @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
 }
 @media (min-width: 700px) {
     .title-words {
-        display: flexbox;
-    }
+    }      
 }
 /* Block 1 */
-
+.title-words {
+    max-width: 1000px;
+    margin: auto;
+    color: var(--main-color);
+    font-family: "Circular Std";
+}      
 h1 {
-    font-size: 60px;
+    font-weight: 40px;
     font-weight: lighter;
     text-align: center;
-    margin: 15px;
     font-family: "Circular Std";
-    padding-top: 60px;
-    
-}
-
-h5 {
-    font-size: 25px;
-    line-height: 1.5;
+    padding-top: 80px;
+    }
+.title-words > .location-info{
+    font-size: 20px;
     text-align:center;
-    padding: 15px 6em 0;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 1200px;
-    display: grid;
-      
+    padding-top: 90px;
+    padding-bottom: 90px;
+    min-width: 320px;
+    line-height: 1.6;        
 }
-
 h4 {
     font-size: 28px;
     text-align: inherit;
     color: var(--main-color);
     font-family: "Circular Std";
-    padding-right: 20px;
-    padding-top:15px;
-    
-    padding-bottom: 40px;
-    padding-left: 40px;
-    
-   
-    
-       
-    
 }
 
 h6 {
@@ -75,11 +61,8 @@ h6 {
     max-width: 1200px;
     display: grid;  
     font-family: "Circular Std";
-    
 }
-
 /* Block 2 */
-
 .how-to-get-transport {
     margin: auto;
     max-width: 1200px;
@@ -94,7 +77,6 @@ h6 {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
     }
 }
 .railways_loc {
@@ -111,20 +93,13 @@ h6 {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .lift {
     width: 100%;
     border-radius: 10px;
 }
-
 .house {
     width: 100%;
     border-radius: 10px;
-}
-
-h4 {
-    margin: 20px;
-    color: var(--main-color);
 }
 
 /* Block 3 */
@@ -172,7 +147,7 @@ h4 {
 }
 
 .contact-form-list>div>a,
-p {
+.contact-form-list>div>p {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
