@@ -15,31 +15,31 @@
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
 }
-@media (min-width: 700px) {
-}
 /* Block 1 */
 .title-words {
     max-width: 900px;
     margin: auto;
     color: var(--main-color);
     font-family: "Circular Std";
-}      
+}
+
 h1 {
     font-weight: 40px;
     font-weight: lighter;
     text-align: center;
     font-family: "Circular Std";
     padding-top: 80px;
-    }
-.title-words > .location-info{
+}
+
+.title-words>.location-info {
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     padding-top: 90px;
     padding-bottom: 90px;
     min-width: 320px;
-    line-height: 1.6;  
-    padding: 20px 3em 0;      
+    line-height: 1.6;
 }
+
 h4 {
     font-size: 24px;
     text-align: inherit;
@@ -55,7 +55,6 @@ h4 {
     font-size: 20px;
     padding: 15px 2em 0;
 }
- 
 /* Block 2 */
 .how-to-get-transport {
     margin: auto;
@@ -65,14 +64,7 @@ h4 {
     grid-column-gap: 30px;
     padding: 20px;
 }
-@media (min-width: 700px) {
-    .railways-loc {
-        flex: 1;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
+
 .railways_loc {
     width: 100%;
     border-radius: 10px;
@@ -82,10 +74,12 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .lift {
     width: 100%;
     border-radius: 10px;
 }
+
 .house {
     width: 100%;
     border-radius: 10px;
@@ -109,12 +103,14 @@ h4 {
     font-size: 34px;
     font-weight: 500;
     line-height: 40px;
+    color: white;
 }
 .contact-form-text {
     text-align: left;
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
+    color: white;
 }
 .contact-form-list>div {
     margin-bottom: 15px;
@@ -186,7 +182,14 @@ input::placeholder {
     }
     /* Block 3 */
     .contact-map {
-        height: 800px;
+        height: 600px;
+    }
+
+    .contact-map-block {
+        display: flexbox;
+        max-width: 1500px;
+        align-items: center;
+        margin: auto;
     }
 
     /* Block 4 */
@@ -213,7 +216,7 @@ input::placeholder {
         margin-bottom: 30px;
     }
 
-    .contact-form-list {
+    .contact-form-list div {
         display: grid;
         grid-template-columns: 150px 150px;
     }
