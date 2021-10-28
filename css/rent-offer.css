@@ -2,75 +2,62 @@
    --main-color: #292827;
    --accent-color: #e9e6e3
 }
-
 @font-face {
    font-family: "Circular Std";
    src: url(../fonts/circular-std.ttf);
 }
-
 @media (min-width: 750px) {
    .products {
       display: grid;
       grid-template-columns: 7fr 3fr;
       grid-column-gap: 30px;
       grid-column: 35px;
-      padding: 0 24px;
+      padding: 10px 24px;
       font-family: "Circular Std";
       max-width: 1800px;
       min-width: 700px;
       margin: auto;
-      padding-top: 60px;
    }
 }
 h1,h2,h3, p {
    font-family: "Circular Std";
    color: var(--main-color);
    margin: auto;
-   
 }
  p {
     font-size:25px;
     line-height: 2.5;
- }
-h1 {
-   font-size: 70px;
-   text-align: center;
-   padding-top: 90px;
-   font-weight: lighter;
 }
-
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 90px;
+    font-weight: lighter;
+}
 h2 {
    font-family: "Circular Std,serif";
    font-size: 50px;
    text-align: left;
-   font-weight:bolder;
    padding-top: 60px;
+   padding-bottom: 20px;
    font-weight: lighter;
-   justify-content: flex-start;
-   margin: 20px 20px;
 }
 .price {
    color: #599673;
    font-weight:bold;
 }
-
 h3 {
    font-size: 40px;
    text-align: left;
    font-weight: lighter;
-   
-   
-  
 }
-
 .cabin-rentals-img {
    display: flex;
    justify-content: center;
    padding-top: 80px;
    padding-bottom: 80px;
    margin: 10px;
-   }
-
+}
 .boxes {
    padding: 0 24px;
 }
@@ -90,7 +77,7 @@ h3 {
 }
 
 section {
-   background-color: #e7e5e3;
+          background-color: #e7e5e3;
 }
 
 .section-form {
@@ -98,19 +85,16 @@ section {
    background-attachment:initial;
    background-size:cover;
 }
-
 .section-form-boxes {
    padding: 80px 24px;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
-
 .section-form-text-box {
    margin-top: 30px;
    color: var(--main-color);
 }
-
 .section-form-box-big-text {
    color: white;
    text-align: left;
@@ -121,7 +105,6 @@ section {
    text-align: center;
    
 }
-
 .section-form-box-small-text {
    color: white;
    text-align: center;
@@ -129,36 +112,30 @@ section {
    font-weight: 400;
    line-height: 30.4px;
 }
-
 .section-form-box {
    background-color: white;
    padding: 31px 27px;
    width: 30em;
-   border-radius: 15px;
+   border-radius: 20px;
 }
-
 .section-form-input {
    margin-bottom: 24px;
    border-radius: 34px;
-   
 }
-
 .section-form-input input {
-   background-color: rgb(212, 212, 212);
+   background-color: rgb(248, 244, 244);
    border: 0;
    padding: 16px 24px;
    border-radius: 40px;
    width: 100%;
    outline-color: #f58f09;
 }
-
 input::placeholder {
    color: rgba(5, 5, 5, 0.568);
 }
-
 .section-form-button {
-   margin-top: 50px;
-   padding: 16px 24px;
+   margin-top: 70px;
+   padding: 20px 34px;
    border: 0;
    background-color: #f98250;
    border-radius: 50px;
