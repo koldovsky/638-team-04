@@ -74,15 +74,6 @@ h6 {
     padding: 20px;
 }
 
-@media (min-width: 700px) {
-    .railways-loc {
-        flex: 1;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
-
 .railways_loc {
     width: 100%;
     border-radius: 10px;
@@ -124,6 +115,7 @@ h6 {
     font-size: 34px;
     font-weight: 500;
     line-height: 40px;
+    color: white;
 }
 
 .contact-form-text {
@@ -131,6 +123,7 @@ h6 {
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
+    color: white;
 }
 
 .contact-form-list>div {
@@ -214,7 +207,14 @@ input::placeholder {
 
     /* Block 3 */
     .contact-map {
-        height: 800px;
+        height: 600px;
+    }
+
+    .contact-map-block {
+        display: flexbox;
+        max-width: 1500px;
+        align-items: center;
+        margin: auto;
     }
 
     /* Block 4 */
@@ -241,7 +241,7 @@ input::placeholder {
         margin-bottom: 30px;
     }
 
-    .contact-form-list {
+    .contact-form-list div {
         display: grid;
         grid-template-columns: 150px 150px;
     }
