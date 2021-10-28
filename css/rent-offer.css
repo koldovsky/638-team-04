@@ -16,47 +16,51 @@
       grid-column: 35px;
       padding: 0 24px;
       font-family: "Circular Std";
-      justify-content: flex-start;
+      max-width: 1800px;
+      min-width: 700px;
+      margin: auto;
+      padding-top: 60px;
    }
 }
 h1,h2,h3, p {
    font-family: "Circular Std";
-   justify-content: flex-start;
    color: var(--main-color);
+   margin: auto;
+   
 }
  p {
-    font-size:20px;
+    font-size:25px;
+    line-height: 2.5;
  }
 h1 {
    font-size: 70px;
-   font-family: "Circular Std";
    text-align: center;
-   padding-top: 80px;
+   padding-top: 90px;
    font-weight: lighter;
 }
 
 h2 {
-   font-size: 42px;
+   font-family: "Circular Std,serif";
+   font-size: 50px;
    text-align: left;
+   font-weight:bolder;
    padding-top: 60px;
-   font-weight: bold;
-   font-family: "Circular Std";
+   font-weight: lighter;
    justify-content: flex-start;
    margin: 20px 20px;
-     
 }
-
 .price {
    color: #599673;
+   font-weight:bold;
 }
 
 h3 {
-   font-size: 30px;
+   font-size: 40px;
    text-align: left;
    font-weight: lighter;
-   font-family: "Circular Std";
-   justify-content: flex-start;
-   margin: 20px;
+   
+   
+  
 }
 
 .cabin-rentals-img {
@@ -77,8 +81,8 @@ h3 {
 }
 
 .bottons {
-   margin-top: 60px;
-   padding: 0 24px;
+   margin:auto;
+   padding-top: 80px;
    grid-template-columns: 7fr 3fr;
    color: var(--main-color);
    font-family: "Circular Std";
