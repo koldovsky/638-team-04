@@ -1,7 +1,8 @@
 :root {
     --accent-color: rgb(236, 235, 235);
 }
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -10,18 +11,15 @@
 }
 
 .background {
-background-color: var(--accent-color);
+    background-color: var(--accent-color);
+
 }
-}
+
 @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
 }
-@media (min-width: 700px) {
-    .title-words {
-        display: flexbox;
-    }
-}
+
 /* Block 1 */
 
 h1 {
@@ -31,20 +29,20 @@ h1 {
     margin: 15px;
     font-family: "Circular Std";
     padding-top: 60px;
-    
+
 }
 
 h5 {
     font-size: 25px;
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
     padding: 15px 6em 0;
     display: flex;
     flex-direction: column;
     margin: auto;
     max-width: 1200px;
     display: grid;
-      
+
 }
 
 h4 {
@@ -53,15 +51,15 @@ h4 {
     color: var(--main-color);
     font-family: "Circular Std";
     padding-right: 20px;
-    padding-top:15px;
-    
+    padding-top: 15px;
+
     padding-bottom: 40px;
     padding-left: 40px;
-    
-   
-    
-       
-    
+
+
+
+
+
 }
 
 h6 {
@@ -73,9 +71,9 @@ h6 {
     color: var(--main-color);
     margin: auto;
     max-width: 1200px;
-    display: grid;  
+    display: grid;
     font-family: "Circular Std";
-    
+
 }
 
 /* Block 2 */
@@ -88,24 +86,12 @@ h6 {
     grid-column-gap: 30px;
     padding: 20px;
 }
-@media (min-width: 700px) {
-    .railways-loc {
-        flex: 1;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-}
+
 .railways_loc {
     width: 100%;
     border-radius: 10px;
 }
-@media (min-width: 700px) {
-    .two_pictures{
-        display: row;
-    }
-}
+
 .two_pictures {
     display: flex;
     flex-direction: column;
@@ -131,7 +117,6 @@ h4 {
 .contact-map {
     width: 100%;
     height: 400px;
-
 }
 
 /* Block 4 */
@@ -217,21 +202,23 @@ input::placeholder {
     color: white;
 }
 
+/* Media */
 @media (min-width: 750px) {
+    .title-words {
+        display: flexbox;
+    }
 
     /* Block 2 */
-    .contact-section-img {
-        display: flex;
+    .railways-loc {
+        flex: 1;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: auto;
+
     }
 
-    .little-img-block {
-        margin: 0 0 10px 0;
-        padding: 10px;
-        width: 100%;
+    .two_pictures {
+        display: row;
     }
 
     /* Block 3 */
