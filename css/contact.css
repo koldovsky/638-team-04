@@ -18,6 +18,7 @@
 /* Block 1 */
 .title-words {
     max-width: 900px;
+    min-width: 350px;
     margin: auto;
     color: var(--main-color);
     font-family: "Circular Std";
@@ -37,6 +38,7 @@ h1 {
     padding-top: 30px;
     min-width: 320px;
     line-height: 1.6;
+    padding: 20px 20px;
 }
 
 h4 {
@@ -44,9 +46,10 @@ h4 {
     color: var(--main-color);
     font-family: "Circular Std";
     display:flex;
-    flex-direction: row (default);
+    flex-direction: row;
+    
 }
-.travel-type-info {
+.section-car {
     max-width: 800px;
     margin: auto;
     color: var(--main-color);
@@ -59,7 +62,25 @@ h4 {
     justify-content: space-between;
     box-sizing: border-box;
 }
-
+.section-car-into {
+    padding-left: 50px;
+}
+.section-train {
+    max-width: 800px;
+    margin: auto;
+    color: var(--main-color);
+    font-family: "Circular Std";
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 15px 2em 0;
+    display:flex;
+    flex-direction: row (default);
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.section-train-info {
+    padding-left: 50px;
+}
 /* Block 2 */
 .how-to-get-transport {
     margin: auto;
