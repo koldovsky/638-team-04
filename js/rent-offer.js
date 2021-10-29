@@ -2,7 +2,7 @@
     const products = [
         {
             id: 1,
-            title: 'River chalet',
+            title: 'River Chalet',
             itemsList: ['✔ 1 Bedroom',
                 '✔ 1 Bathroom',
                 '✔ Sleeps 2',
