@@ -8,20 +8,22 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.background {
+
+.background 
+  {
     background-color: var(--accent-color);
-}
-@font-face {
+ }
+ @font-face {
     font-family: "Circular Std";
     src: url(../fonts/circular-std.ttf);
-}
-/* Block 1 */
-.title-words {
+ }
+ /* Block 1 */
+ .title-words {
     max-width: 900px;
-    min-width: 350px;
     margin: auto;
     color: var(--main-color);
     font-family: "Circular Std";
+  
 }
 
 h1 {
@@ -36,18 +38,15 @@ h1 {
     font-size: 25px;
     text-align: center;
     padding-top: 30px;
-    min-width: 320px;
     line-height: 1.6;
     padding: 20px 20px;
 }
-
 h4 {
     font-size: 24px;
     color: var(--main-color);
     font-family: "Circular Std";
     display:flex;
     flex-direction: row;
-    
 }
 .section-car {
     max-width: 800px;
@@ -81,6 +80,7 @@ h4 {
 .section-train-info {
     padding-left: 50px;
 }
+
 /* Block 2 */
 .how-to-get-transport {
     margin: auto;
@@ -110,6 +110,7 @@ h4 {
     width: 100%;
     border-radius: 10px;
 }
+
 /* Block 3 */
 .contact-map {
     width: 100%;
