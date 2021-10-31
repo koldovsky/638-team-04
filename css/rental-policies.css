@@ -11,6 +11,11 @@
     src: url(../fonts/circular-std.ttf);
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .rental-policies{
     background-image: url(../img/rental-policies/fonrental.jpg);
     padding: 80px 0px;
@@ -19,5 +24,76 @@
 .rental-top{
     text-align: center;
 }
+
+.rental-top > h1{
+    font-family: "Circular Std";
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.rental-top-number > p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.rental-numbers{
+    text-decoration: none;
+    color: #599673;
+}
+
+.rental-main-block{
+    margin-top: 50px;
+    padding: 0px 15px;
+}
+
+.rental-main-cards{
+    display: flex;
+    align-items: flex-start;
+    margin: 25px auto;
+}
+
+.rental-main-cards > img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-cards-text{
+    padding-left: 15px;
+}
+
+.main-cards-text > h4{
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.main-cards-text > p{
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+@media (min-width: 768px){
+    .rental-block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .rental-main-cards > img{
+        width: 50px;
+        height: 50px;
+    }
+    .rental-top > h1{
+        font-size: 44px;
+    }
+}
+
+
 
 
