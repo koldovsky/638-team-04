@@ -6,6 +6,30 @@
    font-family: "Circular Std";
    src: url(../fonts/circular-std.ttf);
 }
+price {
+   font-size: 35px;
+   font-weight: lighter;
+   font-family: "Circular Std";
+   color: #599673;
+   padding: 3em;
+}
+.special-price {
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 1.5em;
+   font-weight: lighter;
+   font-family: "Circular Std";
+}
+.timedown {
+   display:flex;
+   justify-content: space-between; 
+   text-align: center;
+}
+.day,.hour,.minute {
+   font-size: 20px;
+}
 @media (min-width: 750px) {
    .products {
       display: grid;
@@ -19,6 +43,7 @@
       margin: auto;
    }
 } 
+
 p {
     font-size:16px;
     line-height: 2;
@@ -28,7 +53,10 @@ h1 {
     font-size: 44px;
     text-align: center;
     padding-top: 90px;
-    font-weight: bo;
+}
+.clock {
+   font-size: 30%;
+   color: black;
 }
 h2 {
    font-family: "Circular Std,serif";

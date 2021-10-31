@@ -1,4 +1,25 @@
-(function () {
+
+ (function () {
+ const countDown = () => {
+     const countDate = new Date('December 1  , 2021 00:00:00').getTime();
+     const now = new Date().getTime();
+     const gap = countDate - now;
+     
+     const second = 1000;
+     const minute = second * 60;
+     const hour = minute * 60;
+     const day =  hour * 24;
+     const textDay = Math.floor(gap / day);
+     const textHour = Math.floor((gap % day) / hour);
+     const textMinute = Math.floor((gap % hour) /minute);
+
+     document.querySelector(".day").innerText = textDay;
+     document.querySelector(".hour").innerText = textHour;
+     document.querySelector(".minute").innerText = textMinute;
+ };
+ setInterval(countDown, 1000);
+  
+
     const products = [
         {
             id: 1,
