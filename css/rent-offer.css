@@ -6,41 +6,61 @@
    font-family: "Circular Std";
    src: url(../fonts/circular-std.ttf);
 }
+.special-price {
+   width: 40%;
+}
 price {
+  
+   min-width: 400px;
    font-size: 35px;
    font-weight: lighter;
    font-family: "Circular Std";
+   text-align: center;
    color: #599673;
    display: flex;
-   align-items: center;
    flex-direction: column;
    justify-content: space-around;
 }
 .special-price {
-   min-width: 100%;
+   max-width: 500px;
+   margin: auto;
    display: flex;
-   align-items: center;
-   flex-direction:column;
-   justify-content: space-around;
+   flex-direction: column;
+   justify-content: space-between;
    font-size: 1.5em;
    font-weight: lighter;
    font-family: "Circular Std";
+   width: 100%;
+   padding: 20px 20px;
+    
+   
 }
 .timedown {
-   display: flex;
-   justify-content: space-around; 
+   min-width: 400px;
+   margin: auto;
+   border: 5px solid#599673;
+   border-radius: 10px;
+   width: auto;
    text-align: center;
+   background-color: #cfe6d0;
+  
    font-size: 1em;
    font-weight: lighter;
    font-family: "Circular Std";
+   padding: px 2em 0;
+    display:flex;
+   justify-content: space-around;
+    box-sizing: border-box;
+   
 }
 
 .day,.hour,.minute,.second {
-   font-size: 30px;
+   max-width: 500px;
+   margin: auto;
+   font-size: 40px;
    font-weight: lighter;
    font-family: "Circular Std";
    color: #f58f09;
-   
 }
 @media (min-width: 750px) {
    .products {
