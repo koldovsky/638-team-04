@@ -82,9 +82,6 @@ input::placeholder {
     background-color: #f98250;
     border-radius: 40px;
     width: 7%;
-    border:1px solid #ffffff;
-    display:inline-block;
-    cursor:pointer;
     color:#21613a;
 }
 back {
