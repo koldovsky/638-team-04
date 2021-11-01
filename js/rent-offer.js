@@ -1,5 +1,6 @@
 
- (function () {
+(function () {
+
  const countDown = () => {
      const countDate = new Date('November 14 , 2021 00:00:00').getTime();
      const now = new Date().getTime();
@@ -20,8 +21,8 @@
      document.querySelector(".hour").innerText = textHour;
      document.querySelector(".minute").innerText = textMinute;
      document.querySelector(".second").innerText = textSecond;
- };
- setInterval(countDown, 1000);
+    };
+    setInterval(countDown, 1000);
   
 
     const products = [
@@ -106,7 +107,7 @@
                         <article class="bottons">
                            ${product.itemsList.map(item => `<p>${item}</p>`).join('')}
                         </article>
-                        <a href="#" class="orange-button">RESERVE CABIN</a>
+                        <a href="cabin-reserve.html" class="orange-button">RESERVE CABIN</a>
                     </article>
                 </div>
             `;
