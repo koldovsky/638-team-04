@@ -635,8 +635,7 @@ h4, h5 ,h6 {
    color: #848484;
 }
 
-.reservation input {
-    width: 65%;
+.reservation .reservation-input {
     margin-top: 12px;
     padding: 16px 24px;
     border-radius: 28px;
@@ -646,7 +645,7 @@ h4, h5 ,h6 {
 }
 
 .reservation select {
-    width: 80%;
+    width: 99%;
     margin-top: 12px;
     padding: 16px 24px;
     border-radius: 28px;
@@ -656,7 +655,7 @@ h4, h5 ,h6 {
 }
 
 .make-a-button {
-    margin: 7px;
+    margin-top: 12px;
     background-color: #f98250;
     border-radius: 28px;
     display: inline-block;
@@ -667,12 +666,13 @@ h4, h5 ,h6 {
     padding: 16px 31px;
     text-decoration: none;
     font-weight: bold;
+    border-color: rgba(40, 37, 32, 0.12) ;
 }
 
 .make-a-button:hover {
     transition: 1s;
     background-color:#88b299;
-    color: #000;
+    color: white;
 }
 
 .make-a-button:active {
