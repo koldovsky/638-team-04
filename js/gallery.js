@@ -33,9 +33,9 @@
     ];
 
     function renderMenu() {
-        const gallery_nav = document.querySelector('.gallery_nav');
+        const menuContainer = document.querySelector('.gallery_nav');
         for (const item of navItems) {
-            gallery_nav.innerHTML += `<a class="row_nav" href="#">${navItems.rowNaw}</a>`
+            menuContainer.innerHTML += `<a class="row_nav" href="#">${item.rowNaw}</a>`
         }   
     }
 
