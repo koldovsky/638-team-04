@@ -22,7 +22,7 @@
      document.querySelector(".minute").innerText = textMinute;
      document.querySelector(".second").innerText = textSecond;
     };
-    setInterval(countDown, 1000);
+    setInterval(countDown);
   
 
     const products = [
