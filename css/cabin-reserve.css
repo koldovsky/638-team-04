@@ -63,9 +63,11 @@ section {
    outline-color: #f58f09;
 }
 input::placeholder {
-   color: rgba(250, 100, 6, 0.568);
+   font-family: "Circular Std";
+   color: rgba(39, 38, 38, 0.568);
    font-weight: bolder;
    font-size: 15px;
+   
 }
 .section-form-button {
    margin-top: 70px;
