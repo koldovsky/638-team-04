@@ -612,13 +612,14 @@ h4, h5 ,h6 {
 
 .reservation {
     background-image: url(../img/index/reservation/reservation-background.webp);
+    background-size: cover;
 }
 
 .reservation div {
     padding: 15px;
     background-color: white;
     border-radius: 15px;
-    margin: 10px;
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -633,7 +634,7 @@ h4, h5 ,h6 {
 .reservation h4 {
    font-size: 19px;
    color: #848484;
-}
+} 
 
 .reservation input {
     width: 65%;
