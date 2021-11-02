@@ -183,12 +183,12 @@
             <div>
                 <h2>Make a reservation</h2>
                 <h4>Please complete the form below</h4>
-                <form class="contact-form-formspree" action="contact" method="POST">
-                    <input class="reservation-input" type="text" name="user-name" placeholder="Name*"><br>
-                    <input class="reservation-input" type="tel" name="user-tel" placeholder="Phone number*"><br>
-                    <input class="reservation-input" type="text" name="user-datein" placeholder="Check in data*"><br>
-                    <input class="reservation-input" type="text" name="user-dateout" placeholder="Check out date*"><br>
-                    <select>
+                <form class="contact-form-formspree"  method="POST">
+                    <input class="reservation-input" type="text" name="user-name" placeholder="Name*" required><br>
+                    <input class="reservation-input" type="tel" name="user-tel" placeholder="Phone number*" required><br>
+                    <input class="reservation-input" type="text" name="user-datein" placeholder="Check in data*" required><br>
+                    <input class="reservation-input" type="text" name="user-dateout" placeholder="Check out date*" required><br>
+                    <select required>
                         <option value="">Number of guests</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -198,7 +198,7 @@
                         <option value="6">5+</option>
                     </select><br>
                     
-                    <input class="make-a-button" type="submit" value="Make a reservation" placeholder="Make a reservation"><br>
+                    <button class="make-a-button" >Make a reservation</button>
                 </form>
                 
             </div>

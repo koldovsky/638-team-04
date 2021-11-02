@@ -374,7 +374,7 @@ h4, h5 ,h6 {
 /* Second Half */
 
 .get-full-answer {
-    padding: 135px 0;
+    padding: 145px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
     /*background-repeat: no-repeat;
     background-position: center;*/
@@ -542,7 +542,7 @@ h4, h5 ,h6 {
     }
 
     .shop-cafe div img {
-        max-width: 100%;
+        max-width: 95%;
         max-height: 100%;
         border-radius: 10px;
     }
@@ -586,16 +586,6 @@ h4, h5 ,h6 {
     padding: 20px;
     display: grid;
     grid-row: unset;
-}
-
-.testimonials .left-block {
-
-}
-.testimonials .center-block {
-
-}
-.testimonials .right-block {
-    
 }
 
 .testimonials div img {
