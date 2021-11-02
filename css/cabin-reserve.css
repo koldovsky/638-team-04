@@ -1,0 +1,94 @@
+.cards-img {
+   width: 100%;
+   border-radius: 15px;
+}
+.bottons {
+   margin:auto;
+   padding-top: 50px;
+   grid-template-columns: 7fr 3fr;
+   color: var(--main-color);
+   font-family: "Circular Std";
+   justify-content: flex-start;
+}
+section {
+ background-color: #e7e5e3;
+}
+.section-form {
+   background-image: url(../img/about-location/section-form/bg.jpg);
+   background-attachment:initial;
+   background-size:cover;
+}
+.section-form-boxes {
+   padding: 80px 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.section-form-text-box {
+   margin-top: 30px;
+   color: var(--main-color);
+}
+.section-form-box-big-text {
+   color: white;
+   text-align: left;
+   font-family: "Circular Std", serif;
+   font-size: 39px;
+   font-weight: 500;
+   line-height: 40px;
+   text-align: center;
+}
+.section-form-box-small-text {
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30.4px;
+}
+.section-form-box {
+   background-color: white;
+   padding: 31px 27px;
+   width: 30em;
+   border-radius: 20px;
+}
+.section-form-input {
+   margin-bottom: 24px;
+   border-radius: 34px;
+}
+.section-form-input input {
+   background-color: rgb(248, 244, 244);
+   border: 0;
+   padding: 16px 4px;
+   border-radius: 40px;
+   width: 100%;
+   outline-color: #f58f09;
+}
+input::placeholder {
+   font-family: "Circular Std";
+   color: rgba(39, 38, 38, 0.568);
+   font-weight: bolder;
+   font-size: 15px;
+   
+}
+.section-form-button {
+   margin-top: 70px;
+   padding: 20px 34px;
+   border: 0;
+   background-color: #f98250;
+   border-radius: 50px;
+   width: 100%;
+}
+.return-home {
+    margin-top: 70px;
+    padding: 10px 25px;
+    border: 0;
+    background-color: #f98250;
+    border-radius: 40px;
+    width: 7%;
+    color:#21613a;
+}
+back {
+    font-size:25px;
+    font-family: "Circular Std";
+    color: rgb(46, 104, 99);
+    font-weight: lighter;
+    }

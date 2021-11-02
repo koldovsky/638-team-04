@@ -6,43 +6,58 @@
    font-family: "Circular Std";
    src: url(../fonts/circular-std.ttf);
 }
+.special-price {
+   width: 40%;
+}
 price {
-   font-size: 35px;
+   min-width: 400px;
+   font-size: 30px;
    font-weight: lighter;
    font-family: "Circular Std";
+   text-align: center;
    color: #599673;
    display: flex;
-   align-items: center;
    flex-direction: column;
    justify-content: space-around;
 }
 .special-price {
-   min-width: 100%;
+   max-width: 400px;
+   margin: auto;
    display: flex;
-   align-items: center;
-   flex-direction:column;
-   justify-content: space-around;
-   font-size: 1.5em;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 20px;
    font-weight: lighter;
    font-family: "Circular Std";
+   width: 100%;
+   
 }
 .timedown {
-   display: flex;
-   justify-content: space-around; 
+   min-width: 400px;
+   margin: auto;
+   border: 4px solid#599673;
+   border-radius: 10px;
+   width: auto;
    text-align: center;
-   font-size: 1em;
+   background-color: #cfe6d0;
+   font-size: 17px;
    font-weight: lighter;
    font-family: "Circular Std";
+   padding: px 2em 0;
+   display:flex;
+   justify-content: space-around;
+   box-sizing: border-box;
 }
 
 .day,.hour,.minute,.second {
+   max-width: 500px;
+   margin: auto;
    font-size: 30px;
    font-weight: lighter;
    font-family: "Circular Std";
-   color: #f58f09;
-   
+   color: #db7f33;
 }
-@media (min-width: 750px) {
+@media (min-width: 700px) {
    .products {
       display: grid;
       grid-template-columns: 7fr 3fr;
@@ -55,9 +70,8 @@ price {
       margin: auto;
    }
 } 
-
 p {
-    font-size:16px;
+    font-size:18px;
     line-height: 2;
     padding-left: 20px;
 }
@@ -101,8 +115,9 @@ h3 {
    padding: 0 24px;
 }
 .cards-img {
-   width: 100%;
+   width: 95%;
    border-radius: 15px;
+   
 }
 .bottons {
    margin:auto;
