@@ -372,8 +372,9 @@ h4, h5 ,h6 {
 
 
 /* Second Half */
+
 .get-full-answer {
-    padding: 60px 0;
+    padding: 135px 0;
     background-image:url(../img/index/get-full-answer/get-full-answer-background.webp);
     /*background-repeat: no-repeat;
     background-position: center;*/
@@ -446,7 +447,7 @@ h4, h5 ,h6 {
 
 .our-facilities {
     background-image: url(../img/index/our-facilities/our-facilities-background.webp);
-    
+    background-size: cover;
 }
 
 .our-facilities p {
@@ -482,13 +483,19 @@ h4, h5 ,h6 {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 61px 10px;
+    background-size: cover;
 }
 .shop-cafe div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px;
+}
+
+.shop-cafe .shop-grid {
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .shop-cafe div p {
@@ -508,13 +515,18 @@ h4, h5 ,h6 {
 }
 
 .shop-cafe div img {
-    max-width: 100%;
+    max-width: 95%;
     max-height: 100%;
     border-radius: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
+    .shop-cafe .shop-grid {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
     .shop-cafe div img {
-        max-width: 40%;
+        max-width: 100%;
         max-height: 100%;
         border-radius: 10px;
     }
@@ -544,6 +556,7 @@ h4, h5 ,h6 {
 
 .testimonials {
     background-image: url(../img/index/testimonials/testimonials-background.webp);
+    background-size: cover;
 }
 
 .testimonials h2 {
@@ -553,9 +566,8 @@ h4, h5 ,h6 {
 
 .testimonials div {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-row: none;
 }
 
 .testimonials .left-block {
@@ -577,11 +589,17 @@ h4, h5 ,h6 {
 
 @media (min-width: 768px) {
     .testimonials div img {
-        max-width: 40%;
+        max-width: 100%;
         max-height: 100%;
         border-radius: 10px;  
         margin: 5px;
     }
+}
+
+.testimonials .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonials-button {
@@ -612,13 +630,20 @@ h4, h5 ,h6 {
 
 .reservation {
     background-image: url(../img/index/reservation/reservation-background.webp);
+
+    display: grid;
+    justify-items: center;
+    padding: 75px 0 75px 0;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: bottom;
 }
 
 .reservation div {
-    padding: 15px;
+    padding: 60px;
     background-color: white;
     border-radius: 15px;
-    margin: 10px;
+    /* margin: 10px 100px 10px 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
