@@ -1,4 +1,30 @@
+
 (function () {
+
+ const countDown = () => {
+     const countDate = new Date('November 14 , 2021 00:00:00').getTime();
+     const now = new Date().getTime();
+     const gap = countDate - now;
+     
+     const second = 1000;
+     const minute = second * 60;
+     const hour = minute * 60;
+     const day =  hour * 24;
+
+     const textDay = Math.floor(gap / day);
+     const textHour = Math.floor((gap % day) / hour);
+     const textMinute = Math.floor((gap % hour) / minute);
+     const textSecond = Math.floor((gap % minute) / second);
+     
+
+     document.querySelector(".day").innerText = textDay;
+     document.querySelector(".hour").innerText = textHour;
+     document.querySelector(".minute").innerText = textMinute;
+     document.querySelector(".second").innerText = textSecond;
+    };
+    setInterval(countDown);
+  
+
     const products = [
         {
             id: 1,
@@ -81,7 +107,7 @@
                         <article class="bottons">
                            ${product.itemsList.map(item => `<p>${item}</p>`).join('')}
                         </article>
-                        <a href="#" class="orange-button">RESERVE CABIN</a>
+                        <a href="cabin-reserve.html" class="orange-button">RESERVE CABIN</a>
                     </article>
                 </div>
             `;
